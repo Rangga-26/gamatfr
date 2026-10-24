@@ -1,0 +1,16 @@
+{
+  "node": "Linux NAS Cluster Leader (localai)",
+  "host_hardware": "Proxmox Linux QEMU 4 vCPU, 5GB RAM",
+  "provinces": [
+    "Kalimantan Timur",
+    "Kalimantan Selatan",
+    "Kalimantan Utara"
+  ],
+  "points_count": 3215,
+  "ram_during_pct": 77.1,
+  "ram_target_compliant": true,
+  "mean_pfvi": 0.9,
+  "peak_pfvi": 29.6,
+  "water_rewetting_million_m3": 1.28,
+  "calc_time_sec": 1.28
+}

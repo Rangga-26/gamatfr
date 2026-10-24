@@ -1,0 +1,15 @@
+{
+  "node": "Windows Processing Worker (winhermes)",
+  "host_hardware": "Lenovo 80HR, Intel Core i5-5200U, 8GB RAM",
+  "provinces": [
+    "Kalimantan Barat",
+    "Kalimantan Tengah"
+  ],
+  "points_count": 4474,
+  "ram_during_pct": 77.2,
+  "ram_target_compliant": true,
+  "mean_pfvi": 1.17,
+  "peak_pfvi": 22.79,
+  "water_rewetting_million_m3": 1.65,
+  "calc_time_sec": 0.58
+}
