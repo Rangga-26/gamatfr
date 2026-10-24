@@ -1,0 +1,203 @@
+{
+  "regions_topography": [
+    {
+      "rank": 1,
+      "region_id": "Kalteng_Sabangau",
+      "region_name": "Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya)",
+      "latitude": -2.3,
+      "longitude": 113.9,
+      "soil_type": "Kawasan Gambut Pedalaman Sebangau",
+      "mean_pfvi": 148.03,
+      "max_pfvi": 300.0,
+      "elevation_m_asl": 3.0,
+      "mean_wt_depth_m": -0.52,
+      "water_table_datum_m_asl": 2.48,
+      "morphology": "Dataran Rendah / Pesisir Rawa (Lowland Swale)",
+      "drainage_gradient_status": "Gradien rendah - retensi air pesisir tinggi"
+    },
+    {
+      "rank": 2,
+      "region_id": "Kalsel_Pulang_Pisau",
+      "region_name": "Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan)",
+      "latitude": -2.8,
+      "longitude": 114.5,
+      "soil_type": "Kawasan Hidrologis Gambut (KHG) Kahayan - Sebangau",
+      "mean_pfvi": 147.63,
+      "max_pfvi": 300.0,
+      "elevation_m_asl": 3.0,
+      "mean_wt_depth_m": -0.41,
+      "water_table_datum_m_asl": 2.59,
+      "morphology": "Dataran Rendah / Pesisir Rawa (Lowland Swale)",
+      "drainage_gradient_status": "Gradien rendah - retensi air pesisir tinggi"
+    },
+    {
+      "rank": 3,
+      "region_id": "Kaltim_Kutai_Kartanegara",
+      "region_name": "Kalimantan Timur (Delta Mahakam / Kutai Kartanegara)",
+      "latitude": -0.5,
+      "longitude": 117.15,
+      "soil_type": "Gambut Dataran Rendah Delta Mahakam",
+      "mean_pfvi": 71.12,
+      "max_pfvi": 247.62,
+      "elevation_m_asl": 4.0,
+      "mean_wt_depth_m": -0.33,
+      "water_table_datum_m_asl": 3.67,
+      "morphology": "Dataran Rendah / Pesisir Rawa (Lowland Swale)",
+      "drainage_gradient_status": "Gradien rendah - retensi air pesisir tinggi"
+    },
+    {
+      "rank": 4,
+      "region_id": "Kalbar_Kubu_Raya",
+      "region_name": "Kalimantan Barat (Kubu Raya / Rasau Jaya)",
+      "latitude": -0.15,
+      "longitude": 109.4,
+      "soil_type": "Gambut Pesisir Kubu Raya",
+      "mean_pfvi": 46.52,
+      "max_pfvi": 182.24,
+      "elevation_m_asl": 2.0,
+      "mean_wt_depth_m": -0.32,
+      "water_table_datum_m_asl": 1.68,
+      "morphology": "Dataran Rendah / Pesisir Rawa (Lowland Swale)",
+      "drainage_gradient_status": "Gradien rendah - retensi air pesisir tinggi"
+    }
+  ],
+  "dome_transect_sebangau": [
+    {
+      "point": 1,
+      "distance_km": 0.0,
+      "lat": -2.2,
+      "lon": 113.8,
+      "surface_elevation_m": 17.0,
+      "mineral_floor_m": 10.75,
+      "water_table_wet_m": 16.85,
+      "water_table_dry_m": 15.99,
+      "peat_thickness_m": 6.25
+    },
+    {
+      "point": 2,
+      "distance_km": 2.8,
+      "lat": -2.2145,
+      "lon": 113.82,
+      "surface_elevation_m": 16.0,
+      "mineral_floor_m": 10.0,
+      "water_table_wet_m": 15.85,
+      "water_table_dry_m": 15.02,
+      "peat_thickness_m": 6.0
+    },
+    {
+      "point": 3,
+      "distance_km": 5.5,
+      "lat": -2.2291,
+      "lon": 113.84,
+      "surface_elevation_m": 15.0,
+      "mineral_floor_m": 9.25,
+      "water_table_wet_m": 14.85,
+      "water_table_dry_m": 14.06,
+      "peat_thickness_m": 5.75
+    },
+    {
+      "point": 4,
+      "distance_km": 8.3,
+      "lat": -2.2436,
+      "lon": 113.86,
+      "surface_elevation_m": 11.0,
+      "mineral_floor_m": 6.25,
+      "water_table_wet_m": 10.85,
+      "water_table_dry_m": 10.2,
+      "peat_thickness_m": 4.75
+    },
+    {
+      "point": 5,
+      "distance_km": 11.1,
+      "lat": -2.2582,
+      "lon": 113.88,
+      "surface_elevation_m": 10.0,
+      "mineral_floor_m": 5.5,
+      "water_table_wet_m": 9.85,
+      "water_table_dry_m": 9.24,
+      "peat_thickness_m": 4.5
+    },
+    {
+      "point": 6,
+      "distance_km": 13.9,
+      "lat": -2.2727,
+      "lon": 113.9,
+      "surface_elevation_m": 9.0,
+      "mineral_floor_m": 4.75,
+      "water_table_wet_m": 8.85,
+      "water_table_dry_m": 8.28,
+      "peat_thickness_m": 4.25
+    },
+    {
+      "point": 7,
+      "distance_km": 16.6,
+      "lat": -2.2873,
+      "lon": 113.92,
+      "surface_elevation_m": 10.0,
+      "mineral_floor_m": 5.5,
+      "water_table_wet_m": 9.85,
+      "water_table_dry_m": 9.24,
+      "peat_thickness_m": 4.5
+    },
+    {
+      "point": 8,
+      "distance_km": 19.4,
+      "lat": -2.3018,
+      "lon": 113.94,
+      "surface_elevation_m": 8.0,
+      "mineral_floor_m": 4.0,
+      "water_table_wet_m": 7.85,
+      "water_table_dry_m": 7.31,
+      "peat_thickness_m": 4.0
+    },
+    {
+      "point": 9,
+      "distance_km": 22.2,
+      "lat": -2.3164,
+      "lon": 113.96,
+      "surface_elevation_m": 6.0,
+      "mineral_floor_m": 2.5,
+      "water_table_wet_m": 5.85,
+      "water_table_dry_m": 5.38,
+      "peat_thickness_m": 3.5
+    },
+    {
+      "point": 10,
+      "distance_km": 25.0,
+      "lat": -2.3309,
+      "lon": 113.98,
+      "surface_elevation_m": 5.0,
+      "mineral_floor_m": 1.75,
+      "water_table_wet_m": 4.85,
+      "water_table_dry_m": 4.42,
+      "peat_thickness_m": 3.25
+    },
+    {
+      "point": 11,
+      "distance_km": 27.7,
+      "lat": -2.3455,
+      "lon": 114.0,
+      "surface_elevation_m": 5.0,
+      "mineral_floor_m": 1.75,
+      "water_table_wet_m": 4.85,
+      "water_table_dry_m": 4.42,
+      "peat_thickness_m": 3.25
+    },
+    {
+      "point": 12,
+      "distance_km": 30.5,
+      "lat": -2.36,
+      "lon": 114.02,
+      "surface_elevation_m": 18.0,
+      "mineral_floor_m": 11.5,
+      "water_table_wet_m": 17.85,
+      "water_table_dry_m": 16.95,
+      "peat_thickness_m": 6.5
+    }
+  ],
+  "arcgis_services": {
+    "world_topo": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
+    "world_hillshade": "https://server.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}",
+    "world_imagery": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+  }
+}
