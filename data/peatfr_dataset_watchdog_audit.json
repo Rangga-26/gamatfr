@@ -1,0 +1,115 @@
+{
+  "audit_name": "PeatFR Dataset Watchdog & Input Integrity Verification",
+  "audited_at_utc": "2026-10-24T05:10:44Z",
+  "analysis_root": "/home/localai/projects/peatfr/analysis/regional_pfvi_2018_20261020",
+  "master_input_fingerprint_sha256": "e3ac55ee4e7cde94d342f1e2f8e1570865ddc420b89df9bf22704476673757d8",
+  "total_monitored_files": 9,
+  "total_valid_files": 9,
+  "total_raw_dataset_bytes": 1145014,
+  "incoming_unprocessed_files_count": 0,
+  "incoming_unprocessed_files": [],
+  "new_data_detected": false,
+  "pipeline_action_required": "STANDBY_MONITORING",
+  "provenance_assurance": "Semua berkas data mentah diverifikasi secara deterministik tanpa modifikasi atau deduplikasi diam-diam. Data proksi hidrologi tetap dipisahkan secara tegas dari rekaman instrumen fisik in-situ.",
+  "files": [
+    {
+      "filename": "sabangau_public_dataset.csv",
+      "relative_path": "dataset_bundle/raw/sabangau_public_dataset.csv",
+      "description": "Dataset Publik Sabangau (WT, SM, Rf, Temp)",
+      "format": "csv",
+      "exists": true,
+      "size_bytes": 11046,
+      "sha256": "f0c9e4c3ef5bd0f35580f39f034f7e4873f5479ed881ff8884bcd1f06a0d7a4f",
+      "last_modified_utc": "2026-10-21T09:40:42Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "Dataset_Sabangau.xlsx",
+      "relative_path": "raw/Dataset_Sabangau.xlsx",
+      "description": "Workbook Sumber Sabangau 2018 (Original Raw)",
+      "format": "xlsx",
+      "exists": true,
+      "size_bytes": 18212,
+      "sha256": "4af64503303bf78093cbf032050ab7f9ee550c16b926f573f9ee9c0138aaa953",
+      "last_modified_utc": "2026-10-21T08:23:40Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "groundwater_dib_data.xlsx",
+      "relative_path": "raw/groundwater_dib_data.xlsx",
+      "description": "Workbook Muka Air Tanah DIB Kubu Raya (Original Raw)",
+      "format": "xlsx",
+      "exists": true,
+      "size_bytes": 113885,
+      "sha256": "fe3fd7dd964fc1b4adc6a9696c5693fc9496a6fc574a8266dafa93dc0503aa1b",
+      "last_modified_utc": "2026-10-20T12:26:37Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "groundwater_supplementary.zip",
+      "relative_path": "raw/groundwater_supplementary.zip",
+      "description": "Arsip Suplemen Muka Air Tanah DIB",
+      "format": "zip",
+      "exists": true,
+      "size_bytes": 417385,
+      "sha256": "01c760e9f6c7adfe85322d8681efe77e5fe8c8a4cfd8ff3af49da61a578ffb44",
+      "last_modified_utc": "2026-10-20T12:26:37Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "batanghari_era5_2018.json",
+      "relative_path": "raw/batanghari_era5_2018.json",
+      "description": "Reanalisis Iklim Batanghari 2018 (Open-Meteo ERA5)",
+      "format": "json",
+      "exists": true,
+      "size_bytes": 174928,
+      "sha256": "0f33605ccd4ee7122adebd1269416e982ef97aca0fff87e910518af481f27a34",
+      "last_modified_utc": "2026-10-20T13:39:26Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "kubu_raya_era5_2018.json",
+      "relative_path": "raw/kubu_raya_era5_2018.json",
+      "description": "Reanalisis Iklim Kubu Raya 2018 (Open-Meteo ERA5)",
+      "format": "json",
+      "exists": true,
+      "size_bytes": 174846,
+      "sha256": "80ea2504850496c4d04e82d8e7873a3de3eb36230bb4318c288dcb93306a9e47",
+      "last_modified_utc": "2026-10-20T13:39:32Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "sumatra_daily_moisture_v3.csv",
+      "relative_path": "raw/sumatra_daily_moisture_v3.csv",
+      "description": "Observasi Kelembaban Tanah Stasiun Sumatra",
+      "format": "csv",
+      "exists": true,
+      "size_bytes": 202294,
+      "sha256": "934f9ca8ba087cc929416b419dcb1a32c53312a3c7c42d0b21f71550b023f62b",
+      "last_modified_utc": "2026-10-20T12:42:24Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "batanghari_era5_2026.json",
+      "relative_path": "raw/batanghari_era5_2026.json",
+      "description": "Katalog Reanalisis Batanghari 2026",
+      "format": "json",
+      "exists": true,
+      "size_bytes": 16219,
+      "sha256": "24ba80946b3625ab9235c8591e8a6aa66d647c0bf4fe5e66fcd148c1dd759a50",
+      "last_modified_utc": "2026-10-20T22:30:34Z",
+      "integrity_status": "VALID"
+    },
+    {
+      "filename": "kubu_raya_era5_2026.json",
+      "relative_path": "raw/kubu_raya_era5_2026.json",
+      "description": "Katalog Reanalisis Kubu Raya 2026",
+      "format": "json",
+      "exists": true,
+      "size_bytes": 16199,
+      "sha256": "a5038c5bbe1c96c3af2f0f77d53c2f6d9bb228dc894cd4fb5549cb658da36ff5",
+      "last_modified_utc": "2026-10-20T22:30:40Z",
+      "integrity_status": "VALID"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "target": "water table (WT), metres",
+  "evaluation_horizon": "one-day-ahead rolling persistence",
+  "forecast_rule": "tomorrow prediction equals previous calendar day's observed WT",
+  "previous-day-observation-required": true,
+  "missing-observations": "not imputed; pairs with missing previous or target observation are excluded",
+  "warning": "Not comparable to the fixed-origin 365-day hindcast; this is a short-lead rolling baseline, not full PeatFR/PFVI or fire-event accuracy.",
+  "station_scores": [
+    {
+      "station": "BRG17",
+      "n_pairs": 173,
+      "mae_cm": 1.0399,
+      "rmse_cm": 1.5454,
+      "bias_cm_prediction_minus_observation": 0.0029,
+      "within_10cm_pct": 100.0,
+      "within_20cm_pct": 100.0,
+      "within_30cm_pct": 100.0
+    },
+    {
+      "station": "BRG19",
+      "n_pairs": 269,
+      "mae_cm": 2.7985,
+      "rmse_cm": 4.9266,
+      "bias_cm_prediction_minus_observation": 0.0483,
+      "within_10cm_pct": 95.9108,
+      "within_20cm_pct": 98.1413,
+      "within_30cm_pct": 99.6283
+    },
+    {
+      "station": "BRG20",
+      "n_pairs": 175,
+      "mae_cm": 3.2686,
+      "rmse_cm": 5.6198,
+      "bias_cm_prediction_minus_observation": -0.3657,
+      "within_10cm_pct": 93.7143,
+      "within_20cm_pct": 98.8571,
+      "within_30cm_pct": 99.4286
+    },
+    {
+      "station": "BRG3",
+      "n_pairs": 241,
+      "mae_cm": 1.9278,
+      "rmse_cm": 3.6101,
+      "bias_cm_prediction_minus_observation": 0.3253,
+      "within_10cm_pct": 96.6805,
+      "within_20cm_pct": 99.5851,
+      "within_30cm_pct": 100.0
+    },
+    {
+      "station": "BRG6",
+      "n_pairs": 282,
+      "mae_cm": 1.8223,
+      "rmse_cm": 2.8002,
+      "bias_cm_prediction_minus_observation": 0.4933,
+      "within_10cm_pct": 98.9362,
+      "within_20cm_pct": 100.0,
+      "within_30cm_pct": 100.0
+    }
+  ],
+  "pooled": {
+    "station": "POOLED",
+    "n_pairs": 1140,
+    "mae_cm": 2.1782,
+    "rmse_cm": 3.9538,
+    "bias_cm_prediction_minus_observation": 0.1465,
+    "within_10cm_pct": 97.1053,
+    "within_20cm_pct": 99.2982,
+    "within_30cm_pct": 99.8246
+  }
+}

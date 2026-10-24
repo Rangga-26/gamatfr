@@ -1,0 +1,133 @@
+{
+  "pipeline_name": "PeatFR-ERT-EWS-Kalimantan-Multi-Agent",
+  "timestamp_utc": "2026-10-21T18:52:54Z",
+  "cluster_nodes": {
+    "orchestrator_nas": {
+      "identity": "Nissa",
+      "ip": "100.100.86.55",
+      "role": "Data Storage, SQLite Ledger, Obsidian Documentation & n8n Pipeline Lead",
+      "status": "HEALTHY"
+    },
+    "coding_worker_ubuntu": {
+      "identity": "Cika",
+      "ip": "100.91.228.122",
+      "role": "ResIPy Forward/Inverse Inversion Engine, Python Environment, KiCad Telemetry",
+      "status": "ONLINE"
+    },
+    "processing_worker_windows": {
+      "identity": "Windah",
+      "ip": "100.96.249.7",
+      "role": "3D Surface Modeling (Surfer), Geosoft Grid Interpolation & High-DPI Visualization",
+      "status": "ONLINE"
+    }
+  },
+  "trigger_rules": [
+    {
+      "rule_id": "TR-01",
+      "condition": "PFVI >= 200 OR bulk_resistivity_surface >= 120 ohm.m",
+      "target_level": "SIAGA",
+      "action": "Trigger Cika (Ubuntu) to execute batch ResIPy inversion on latest ERT lines; Alert local MPA units."
+    },
+    {
+      "rule_id": "TR-02",
+      "condition": "PFVI >= 250 OR WT <= -0.60 m OR bulk_resistivity_surface >= 220 ohm.m",
+      "target_level": "AWAS",
+      "action": "Immediate dispatch of Telegram emergency alerts; Trigger Windah (Windows) to generate 3D fence diagrams for aerial water bombing targeting."
+    }
+  ],
+  "regional_status_summary": [
+    {
+      "region": "Kalteng_Sabangau",
+      "total_days": 365,
+      "days_level_1_aman": 20,
+      "pct_level_1_aman": 5.5,
+      "days_level_2_waspada": 107,
+      "pct_level_2_waspada": 29.3,
+      "days_level_3_siaga": 119,
+      "pct_level_3_siaga": 32.6,
+      "days_level_4_awas": 119,
+      "pct_level_4_awas": 32.6,
+      "total_days_siaga_awas": 238,
+      "pct_days_siaga_awas": 65.2,
+      "longest_continuous_critical_streak_days": 162,
+      "critical_period_onset_date": "2027-01-01",
+      "critical_period_termination_date": "2027-12-01",
+      "mean_pfvi": 148.03,
+      "peak_pfvi": 300.0,
+      "mean_surface_resistivity_ohm_m": 34.77,
+      "peak_surface_resistivity_ohm_m": 36.42,
+      "lowest_wt_m": -0.978
+    },
+    {
+      "region": "Kalsel_Pulang_Pisau",
+      "total_days": 365,
+      "days_level_1_aman": 75,
+      "pct_level_1_aman": 20.5,
+      "days_level_2_waspada": 140,
+      "pct_level_2_waspada": 38.4,
+      "days_level_3_siaga": 60,
+      "pct_level_3_siaga": 16.4,
+      "days_level_4_awas": 90,
+      "pct_level_4_awas": 24.7,
+      "total_days_siaga_awas": 150,
+      "pct_days_siaga_awas": 41.1,
+      "longest_continuous_critical_streak_days": 126,
+      "critical_period_onset_date": "2027-04-14",
+      "critical_period_termination_date": "2027-12-02",
+      "mean_pfvi": 147.63,
+      "peak_pfvi": 300.0,
+      "mean_surface_resistivity_ohm_m": 34.46,
+      "peak_surface_resistivity_ohm_m": 36.47,
+      "lowest_wt_m": -0.992
+    },
+    {
+      "region": "Kaltim_Kutai_Kartanegara",
+      "total_days": 365,
+      "days_level_1_aman": 118,
+      "pct_level_1_aman": 32.3,
+      "days_level_2_waspada": 117,
+      "pct_level_2_waspada": 32.1,
+      "days_level_3_siaga": 107,
+      "pct_level_3_siaga": 29.3,
+      "days_level_4_awas": 23,
+      "pct_level_4_awas": 6.3,
+      "total_days_siaga_awas": 130,
+      "pct_days_siaga_awas": 35.6,
+      "longest_continuous_critical_streak_days": 55,
+      "critical_period_onset_date": "2027-03-22",
+      "critical_period_termination_date": "2027-12-04",
+      "mean_pfvi": 71.12,
+      "peak_pfvi": 247.62,
+      "mean_surface_resistivity_ohm_m": 34.19,
+      "peak_surface_resistivity_ohm_m": 35.21,
+      "lowest_wt_m": -0.653
+    },
+    {
+      "region": "Kalbar_Kubu_Raya",
+      "total_days": 365,
+      "days_level_1_aman": 128,
+      "pct_level_1_aman": 35.1,
+      "days_level_2_waspada": 116,
+      "pct_level_2_waspada": 31.8,
+      "days_level_3_siaga": 106,
+      "pct_level_3_siaga": 29.0,
+      "days_level_4_awas": 15,
+      "pct_level_4_awas": 4.1,
+      "total_days_siaga_awas": 121,
+      "pct_days_siaga_awas": 33.2,
+      "longest_continuous_critical_streak_days": 35,
+      "critical_period_onset_date": "2027-03-31",
+      "critical_period_termination_date": "2027-10-21",
+      "mean_pfvi": 46.52,
+      "peak_pfvi": 182.24,
+      "mean_surface_resistivity_ohm_m": 34.16,
+      "peak_surface_resistivity_ohm_m": 35.39,
+      "lowest_wt_m": -0.703
+    }
+  ],
+  "telemetry_contracts": {
+    "ert_table": "analysis/regional_pfvi_2018_20261020/derived/kalimantan_2027_ert_petrophysical_timeseries.csv",
+    "ews_matrix": "analysis/regional_pfvi_2018_20261020/derived/kalimantan_2027_ews_alert_matrix.csv",
+    "array_specs": "analysis/regional_pfvi_2018_20261020/derived/kalimantan_2027_ert_array_sensitivity.csv"
+  }
+}

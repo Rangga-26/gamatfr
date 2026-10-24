@@ -1,0 +1,17 @@
+scenario_id,scenario_name,region_id,region_name,annual_rainfall_mm,mean_temp_max_c,mean_wt_depth_m,min_wt_depth_m,mean_pfvi,max_pfvi,days_moderate_ge_150,days_high_risk_ge_200,days_extreme_risk_ge_250,max_consecutive_high_days
+Normal_Baseline,Normal (CMIP6 EC_Earth3P_HR Baseline),Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),2137.8,31.42,-0.519,-0.978,148.03,300.0,167,117,87,117
+Normal_Baseline,Normal (CMIP6 EC_Earth3P_HR Baseline),Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),1801.7,31.38,-0.413,-0.992,147.63,300.0,166,122,79,122
+Normal_Baseline,Normal (CMIP6 EC_Earth3P_HR Baseline),Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),2961.7,30.5,-0.334,-0.653,71.12,247.63,52,24,0,22
+Normal_Baseline,Normal (CMIP6 EC_Earth3P_HR Baseline),Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),3689.0,30.46,-0.324,-0.703,46.51,182.23,21,0,0,0
+El_Nino_Moderat,"El Niño Moderat (Defisit Hujan 20%, Suhu +1.0°C)",Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),1710.2,32.42,-0.619,-1.078,193.36,300.0,262,170,117,161
+El_Nino_Moderat,"El Niño Moderat (Defisit Hujan 20%, Suhu +1.0°C)",Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),1441.3,32.38,-0.513,-1.092,191.55,300.0,261,177,117,163
+El_Nino_Moderat,"El Niño Moderat (Defisit Hujan 20%, Suhu +1.0°C)",Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),2369.4,31.5,-0.434,-0.753,121.07,282.37,134,67,23,52
+El_Nino_Moderat,"El Niño Moderat (Defisit Hujan 20%, Suhu +1.0°C)",Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),2951.2,31.46,-0.424,-0.803,86.75,239.12,101,20,0,19
+El_Nino_Kuat,"El Niño Kuat / Super El Niño (Defisit Hujan 35%, Suhu +1.8°C)",Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),1389.6,33.22,-0.739,-1.198,236.84,300.0,316,283,186,240
+El_Nino_Kuat,"El Niño Kuat / Super El Niño (Defisit Hujan 35%, Suhu +1.8°C)",Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),1171.1,33.18,-0.633,-1.212,230.51,300.0,313,262,164,262
+El_Nino_Kuat,"El Niño Kuat / Super El Niño (Defisit Hujan 35%, Suhu +1.8°C)",Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),1925.1,32.3,-0.554,-0.873,180.98,300.0,231,148,71,138
+El_Nino_Kuat,"El Niño Kuat / Super El Niño (Defisit Hujan 35%, Suhu +1.8°C)",Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),2397.9,32.26,-0.544,-0.923,151.01,280.33,174,124,20,55
+La_Nina,"La Niña (Surplus Hujan +25%, Suhu -0.5°C)",Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),2672.3,30.92,-0.439,-0.898,110.72,300.0,120,95,55,82
+La_Nina,"La Niña (Surplus Hujan +25%, Suhu -0.5°C)",Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),2252.1,30.88,-0.333,-0.912,111.98,300.0,124,96,52,84
+La_Nina,"La Niña (Surplus Hujan +25%, Suhu -0.5°C)",Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),3702.2,30.0,-0.254,-0.573,40.5,208.11,22,5,0,5
+La_Nina,"La Niña (Surplus Hujan +25%, Suhu -0.5°C)",Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),4611.3,29.96,-0.244,-0.623,21.72,136.84,0,0,0,0

@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-10-24T07:15:35Z",
+  "status": "STANDBY_EMPTY",
+  "pending_count": 0,
+  "items": [],
+  "webhook_target": "http://127.0.0.1:5678/webhook/peatfr-telemetry",
+  "n8n_listener_available": true
+}

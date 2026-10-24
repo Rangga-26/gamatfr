@@ -1,0 +1,5 @@
+rank,region_id,region_name,latitude,longitude,mean_pfvi,max_pfvi,days_high_risk_ge_200,days_extreme_risk_ge_250,annual_rainfall_mm,mean_temp_max_c,mean_sm_percent,mean_wt_depth_m
+1,Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),-2.3,113.9,148.03,300.0,117,87,2137.8,31.42,55.2,-0.52
+2,Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),-2.8,114.5,147.63,300.0,122,79,1801.7,31.38,59.0,-0.41
+3,Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),-0.5,117.15,71.12,247.62,24,0,2961.7,30.5,61.8,-0.33
+4,Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),-0.15,109.4,46.52,182.24,0,0,3689.0,30.46,62.1,-0.32

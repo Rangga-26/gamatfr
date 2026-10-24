@@ -1,0 +1,48 @@
+{
+  "task": "PeatFR Field Telemetry Watchdog & n8n Automation",
+  "timestamp_utc": "2026-10-24T07:15:35Z",
+  "status": "STANDBY_MONITORING_ACTIVE",
+  "incoming_files_count": 0,
+  "incoming_files": [],
+  "cluster_nodes": {
+    "orchestrator_nas": {
+      "name": "Nissa",
+      "ip": "100.100.86.55",
+      "role": "Orchestrator, Data Storage & EWS Scheduler",
+      "status": "ONLINE_HEALTHY"
+    },
+    "coding_worker_ubuntu": {
+      "name": "Cika",
+      "ip": "100.91.228.122",
+      "role": "ResIPy Forward/Inverse Engine",
+      "status": "OFFLINE_STANDBY"
+    },
+    "processing_worker_windows": {
+      "name": "Windah",
+      "ip": "100.96.249.7",
+      "role": "Surfer 3D Fence & High-DPI Visualization",
+      "status": "ONLINE"
+    }
+  },
+  "n8n_service": {
+    "endpoint": "http://127.0.0.1:5678",
+    "port_5678_listening": true,
+    "status": "ONLINE"
+  },
+  "active_trigger_rules": [
+    {
+      "rule_id": "TR-01",
+      "condition": "PFVI >= 200 OR bulk_resistivity_surface >= 120 ohm.m",
+      "target_level": "SIAGA",
+      "action": "Trigger Cika (Ubuntu) to execute batch ResIPy inversion on latest ERT lines; Alert local MPA units."
+    },
+    {
+      "rule_id": "TR-02",
+      "condition": "PFVI >= 250 OR WT <= -0.60 m OR bulk_resistivity_surface >= 220 ohm.m",
+      "target_level": "AWAS",
+      "action": "Immediate dispatch of Telegram emergency alerts; Trigger Windah (Windows) to generate 3D fence diagrams for aerial water bombing targeting."
+    }
+  ],
+  "dispatch_queue_pending": 0,
+  "summary_message": "Tidak ada berkas telemetri baru di folder incoming/. Sistem dalam mode pengawasan pasif."
+}

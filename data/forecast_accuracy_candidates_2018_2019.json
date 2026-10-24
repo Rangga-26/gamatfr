@@ -1,0 +1,137 @@
+{
+  "target": "WT only",
+  "fixed_origin_train": "2018-04-13 to 2018-12-28; 260 days",
+  "holdout": "2018-12-29 to 2019-12-28; 5 stations; 1150 observed station-days",
+  "tolerance": "absolute error <= 0.20 m; reporting threshold, not operationally validated",
+  "fixed_origin_2019_candidates": {
+    "persistence": {
+      "n": 1150,
+      "mae_cm": 23.67,
+      "rmse_cm": 36.67,
+      "bias_cm": 20.65,
+      "within_20cm_pct": 62.7
+    },
+    "seasonal_naive": {
+      "n": 1150,
+      "mae_cm": 26.3,
+      "rmse_cm": 40.51,
+      "bias_cm": 22.88,
+      "within_20cm_pct": 62.5
+    },
+    "arima": {
+      "n": 1150,
+      "mae_cm": 22.9,
+      "rmse_cm": 35.39,
+      "bias_cm": 19.96,
+      "within_20cm_pct": 62.9
+    },
+    "ets": {
+      "n": 1150,
+      "mae_cm": 21.13,
+      "rmse_cm": 32.32,
+      "bias_cm": 18.2,
+      "within_20cm_pct": 67.7
+    },
+    "historical_mean": {
+      "n": 1150,
+      "mae_cm": 14.89,
+      "rmse_cm": 23.78,
+      "bias_cm": 5.85,
+      "within_20cm_pct": 81.8
+    },
+    "rw_drift": {
+      "n": 1150,
+      "mae_cm": 30.16,
+      "rmse_cm": 46.28,
+      "bias_cm": 22.88,
+      "within_20cm_pct": 55.4
+    },
+    "theta": {
+      "n": 1150,
+      "mae_cm": 25.81,
+      "rmse_cm": 39.42,
+      "bias_cm": 21.09,
+      "within_20cm_pct": 59.7
+    }
+  },
+  "rolling_2018_validation": {
+    "data_cutoff": "2018-12-28",
+    "folds": 40,
+    "sites": 8,
+    "scored_pairs": 1137,
+    "models": {
+      "persistence": {
+        "n": 1137,
+        "mae_cm": 10.19,
+        "rmse_cm": 13.44,
+        "bias_cm": -5.82,
+        "within_20cm_pct": 87.0
+      },
+      "seasonal_naive": {
+        "n": 1137,
+        "mae_cm": 10.22,
+        "rmse_cm": 13.22,
+        "bias_cm": -4.3,
+        "within_20cm_pct": 87.4
+      },
+      "arima": {
+        "n": 1137,
+        "mae_cm": 10.49,
+        "rmse_cm": 14.07,
+        "bias_cm": -6.29,
+        "within_20cm_pct": 85.3
+      },
+      "ets": {
+        "n": 1137,
+        "mae_cm": 10.39,
+        "rmse_cm": 13.65,
+        "bias_cm": -6.25,
+        "within_20cm_pct": 86.6
+      },
+      "historical_mean": {
+        "n": 1137,
+        "mae_cm": 14.83,
+        "rmse_cm": 19.25,
+        "bias_cm": -1.12,
+        "within_20cm_pct": 76.1
+      },
+      "rw_drift": {
+        "n": 1137,
+        "mae_cm": 11.22,
+        "rmse_cm": 15.21,
+        "bias_cm": -7.77,
+        "within_20cm_pct": 81.4
+      },
+      "theta": {
+        "n": 1137,
+        "mae_cm": 10.96,
+        "rmse_cm": 14.49,
+        "bias_cm": -7.26,
+        "within_20cm_pct": 83.7
+      }
+    },
+    "warning": "rolling 30-day folds evaluate a shorter horizon than 365 days; historical_mean did worse than persistence and ETS on this validation."
+  },
+  "ets_predictive_intervals_2019": {
+    "80": {
+      "covered": 1149,
+      "n": 1150,
+      "empirical_coverage_pct": 99.91,
+      "mean_width_cm": 169.36,
+      "median_width_cm": 170.54
+    },
+    "95": {
+      "covered": 1150,
+      "n": 1150,
+      "empirical_coverage_pct": 100.0,
+      "mean_width_cm": 259.01,
+      "median_width_cm": 260.82
+    }
+  },
+  "limits": [
+    "Only one heldout year.",
+    "Historical mean scored highest among this candidate set on 2019 (81.8% within 20 cm), but was inferior in pre-2019 rolling validation (76.1% within 20 cm versus 87.0% persistence and 86.6% ETS); do not select it based on the 2019 holdout.",
+    "The 80% interval covered 99.9% but mean width is about 169 cm, so high coverage is achieved with broad uncertainty, not high precision.",
+    "No measured SM, rainfall/temperature inputs aligned for this forecast, PFVI target, or fire-event labels were validated."
+  ]
+}

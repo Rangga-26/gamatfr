@@ -1,0 +1,75 @@
+{
+  "generated_at_utc": "2026-10-21T17:01:42Z",
+  "evaluation_year": 2027,
+  "model": "PeatFR PFVI (Empirical Hydro-Meteorological Proxy)",
+  "data_sources": {
+    "historical_calibration": "Open-Meteo Reanalysis Archive 2023-2024",
+    "forward_climate": "Open-Meteo Climate Projections 2027 (CMIP6 EC_Earth3P_HR)"
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "region_id": "Kalteng_Sabangau",
+      "region_name": "Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya)",
+      "soil_type": "Kawasan Gambut Pedalaman Sebangau",
+      "latitude": -2.3,
+      "longitude": 113.9,
+      "mean_pfvi": 148.03,
+      "median_pfvi": 133.09,
+      "max_pfvi": 300.0,
+      "days_high_risk_ge_200": 117,
+      "days_extreme_risk_ge_250": 87,
+      "annual_rainfall_mm": 2137.8,
+      "mean_temp_max_c": 31.42,
+      "mean_wt_depth_m": -0.52
+    },
+    {
+      "rank": 2,
+      "region_id": "Kalsel_Pulang_Pisau",
+      "region_name": "Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan)",
+      "soil_type": "Kawasan Hidrologis Gambut (KHG) Kahayan - Sebangau",
+      "latitude": -2.8,
+      "longitude": 114.5,
+      "mean_pfvi": 147.63,
+      "median_pfvi": 138.52,
+      "max_pfvi": 300.0,
+      "days_high_risk_ge_200": 122,
+      "days_extreme_risk_ge_250": 79,
+      "annual_rainfall_mm": 1801.7,
+      "mean_temp_max_c": 31.38,
+      "mean_wt_depth_m": -0.41
+    },
+    {
+      "rank": 3,
+      "region_id": "Kaltim_Kutai_Kartanegara",
+      "region_name": "Kalimantan Timur (Delta Mahakam / Kutai Kartanegara)",
+      "soil_type": "Gambut Dataran Rendah Delta Mahakam",
+      "latitude": -0.5,
+      "longitude": 117.15,
+      "mean_pfvi": 71.12,
+      "median_pfvi": 56.88,
+      "max_pfvi": 247.62,
+      "days_high_risk_ge_200": 24,
+      "days_extreme_risk_ge_250": 0,
+      "annual_rainfall_mm": 2961.7,
+      "mean_temp_max_c": 30.5,
+      "mean_wt_depth_m": -0.33
+    },
+    {
+      "rank": 4,
+      "region_id": "Kalbar_Kubu_Raya",
+      "region_name": "Kalimantan Barat (Kubu Raya / Rasau Jaya)",
+      "soil_type": "Gambut Pesisir Kubu Raya",
+      "latitude": -0.15,
+      "longitude": 109.4,
+      "mean_pfvi": 46.52,
+      "median_pfvi": 19.12,
+      "max_pfvi": 182.24,
+      "days_high_risk_ge_200": 0,
+      "days_extreme_risk_ge_250": 0,
+      "annual_rainfall_mm": 3689.0,
+      "mean_temp_max_c": 30.46,
+      "mean_wt_depth_m": -0.32
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "execution_id": "dispatch_exec_20261024_072022",
+  "timestamp_utc": "2026-10-24T07:20:22+00:00",
+  "trigger_level": 4,
+  "trigger_status": "AWAS",
+  "dispatches": [
+    {
+      "node": "Cika (Ubuntu 100.91.228.122)",
+      "status": "ONLINE",
+      "action": "REMOTE_RESIPY_DISPATCH",
+      "detail": "Koneksi SSH Tailscale aktif, penugasan batch inversi berhasil dikirimkan."
+    },
+    {
+      "node": "Windah (Windows 100.96.249.7)",
+      "status": "ONLINE",
+      "action": "STAGE_SURFER_3D_FENCE_CONFIG",
+      "detail": "Berkas konfigurasi C:\\Users\\winhermes\\peatfr_surfer_job.json berhasil disiapkan.",
+      "remote_execution": {
+        "ok": false,
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "The string is missing the terminator: '@.\n    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException\n    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString",
+        "latency_s": 1.0
+      }
+    },
+    {
+      "channel": "Telegram / MPA Broadcast",
+      "status": "ALERT_PAYLOAD_GENERATED",
+      "artifact": "/home/localai/projects/peatfr/analysis/regional_pfvi_2018_20261020/derived/peatfr_telegram_emergency_alert.json"
+    }
+  ],
+  "dry_run": false
+}

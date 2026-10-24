@@ -1,0 +1,7 @@
+array_type,electrode_spacing_m,max_depth_investigation_m,vertical_resolution_rating,lateral_resolution_rating,signal_to_noise_ratio,applicability_for_peat_wt,inversion_misfit_expected_pct,acquisition_speed_points_per_hr,recommended_use_case
+Wenner Alpha,0.5,1.25,Sangat Tinggi (±5 cm),Sedang,Sangat Kuat (Tahan Noise Lapangan),Sangat Ideal untuk zona vadosa perakaran & fluktuasi harian MAT,2.1,240,Pemantauan rutin stasiun tetap di sekitar sekat kanal
+Wenner Alpha,1.0,2.5,Tinggi (±10 cm),Sedang,Kuat,Standar Acuan: mencakup zona depresi MAT kemarau ekstrem hingga -2.0m,2.8,240,Profil acuan berkala bulanan lintasan monitoring KHG
+Wenner Alpha,2.0,5.0,Cukup (±25 cm),Rendah,Kuat,Kurang sensitif untuk fluktuasi muka air tanah dangkal,3.4,240,Pemetaan ketebalan total lapisan gambut hingga kontak tanah mineral
+Dipole-Dipole,0.5,1.5,Tinggi (±8 cm),Sangat Tinggi (Sensitif batas retakan/piping),Sedang-Lemah (Sensitif kontak elektroda kering),Efektif mendeteksi kebocoran lateral di sayap sekat kanal,4.5,360,Inspeksi integritas struktural dan rembesan tanggul sekat kanal
+Dipole-Dipole,1.0,3.0,Baik (±15 cm),Tinggi,Sedang,Dapat mendeteksi rekahan desikasi dalam (*peat shrinkage cracks*),4.8,360,Karakterisasi rekahan hidrologis pada kubah gambut terdegradasi
+Schlumberger,1.0,2.8,Tinggi (±12 cm),Rendah-Sedang,Kuat,Bagus untuk sounding 1D cepat verifikasi elevasi MAT,3.0,180,Verifikasi cepat (sounding titik) di sebelah sumur piezometer

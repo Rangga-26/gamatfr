@@ -1,0 +1,1514 @@
+{
+  "audit_type": "descriptive_provenance_aware_data_readiness",
+  "source": "dataset_bundle/normalized_observations.csv",
+  "summary": {
+    "input_rows": 15800,
+    "undated_rows": 0,
+    "index_only_rows": 0,
+    "invalid_date_rows": 0,
+    "noncanonical_date_rows": 0,
+    "regions_or_region_labels": [
+      "Batanghari",
+      "Kubu Raya",
+      "Sabangau demo; coordinate approximate",
+      "Sabangau; approximate study region",
+      "Sumatra; exact region/site not resolved"
+    ],
+    "source_site_pairs": 36,
+    "site_labels": [
+      "BRG17",
+      "BRG18",
+      "BRG19",
+      "BRG20",
+      "BRG3",
+      "BRG4",
+      "BRG5",
+      "BRG6",
+      "BRG_140302_01",
+      "BRG_140312_02",
+      "BRG_140402_01",
+      "BRG_140405_02",
+      "BRG_140411_02",
+      "BRG_140412_01",
+      "BRG_140415_01",
+      "BRG_140508_02",
+      "BRG_140508_03",
+      "BRG_140613_02",
+      "BRG_140701_02",
+      "BRG_140702_02",
+      "BRG_140702_03",
+      "BRG_140713_01",
+      "BRG_150709_02",
+      "BRG_150710_02",
+      "BRG_160205_01",
+      "BRG_160214_01",
+      "BRG_160214_02",
+      "BRG_160609_01",
+      "BRG_160611_01",
+      "Sabangau_study_series",
+      "approx_request_point",
+      "regional_reanalysis_grid"
+    ],
+    "site_label_count": 32,
+    "years": [
+      2018,
+      2019,
+      2023,
+      2025,
+      2026
+    ],
+    "verified_field_wt_rows": 3929,
+    "unverified_published_wt_rows": 192,
+    "field_wt_rows_with_coordinates": 0,
+    "field_ert_measurement_rows": 0,
+    "nonfield_or_derived_ert_rows": 0,
+    "site_year_groups": 63,
+    "prediction_ready": false
+  },
+  "variable_evidence_coverage": [
+    {
+      "source_id": "DIB_2022_GWT",
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 3929,
+      "sites_in_source_variable_evidence": 8
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 260,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 260,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "variable": "soil_moisture",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "m³/m³",
+      "rows": 260,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 365,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 365,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 260,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 260,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "variable": "soil_moisture",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "m³/m³",
+      "rows": 260,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 365,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 365,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "variable": "surface_soil_wetness",
+      "evidence_type": "gridded_reanalysis_proxy",
+      "unit": "1",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "variable": "soil_moisture",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "m³/m³",
+      "rows": 576,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "variable": "rainfall (study input; accumulation interval/unit unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "variable": "soil moisture (study input; basis/depth unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "variable": "temperature (study input; exact statistic unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "variable": "water table (study input; sign/reference unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192,
+      "sites_in_source_variable_evidence": 1
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 6547,
+      "sites_in_source_variable_evidence": 21
+    }
+  ],
+  "site_year_coverage": [
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG17",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "rows": 264
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG17",
+      "region": "Kubu Raya",
+      "year": 2019,
+      "rows": 197
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG18",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "rows": 264
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG19",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "rows": 264
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG19",
+      "region": "Kubu Raya",
+      "year": 2019,
+      "rows": 365
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG20",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "rows": 263
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG20",
+      "region": "Kubu Raya",
+      "year": 2019,
+      "rows": 365
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG3",
+      "region": "Batanghari",
+      "year": 2018,
+      "rows": 268
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG3",
+      "region": "Batanghari",
+      "year": 2019,
+      "rows": 239
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG4",
+      "region": "Batanghari",
+      "year": 2018,
+      "rows": 265
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG5",
+      "region": "Batanghari",
+      "year": 2018,
+      "rows": 265
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG5",
+      "region": "Batanghari",
+      "year": 2019,
+      "rows": 365
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG6",
+      "region": "Batanghari",
+      "year": 2018,
+      "rows": 265
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG6",
+      "region": "Batanghari",
+      "year": 2019,
+      "rows": 280
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2018,
+      "rows": 780
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2025,
+      "rows": 146
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2026,
+      "rows": 584
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "rows": 780
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2025,
+      "rows": 146
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2026,
+      "rows": 584
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "rows": 576
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "rows": 960
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "site_id": "Sabangau_study_series",
+      "region": "Sabangau; approximate study region",
+      "year": 2023,
+      "rows": 768
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140302_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 75
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140302_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 199
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140312_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 122
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140402_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 64
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140402_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 352
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140405_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 27
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140405_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 352
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140411_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 50
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140411_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 351
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140412_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 54
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140412_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 322
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140415_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 52
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140415_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 331
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 57
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 352
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 26
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 348
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140613_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 34
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140613_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 333
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140701_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 11
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140701_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 269
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 73
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 318
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 73
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 234
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140713_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 72
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140713_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 322
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_150709_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 104
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_150710_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 58
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_150710_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 285
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160205_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 48
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160205_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 143
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 5
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 224
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 52
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 150
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160609_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 23
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160609_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 185
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160611_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "rows": 53
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160611_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "rows": 344
+    }
+  ],
+  "site_year_variable_evidence_coverage": [
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG17",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 264
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG17",
+      "region": "Kubu Raya",
+      "year": 2019,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 197
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG18",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 264
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG19",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 264
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG19",
+      "region": "Kubu Raya",
+      "year": 2019,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 365
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG20",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 263
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG20",
+      "region": "Kubu Raya",
+      "year": 2019,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 365
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG3",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 268
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG3",
+      "region": "Batanghari",
+      "year": 2019,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 239
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG4",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 265
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG5",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 265
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG5",
+      "region": "Batanghari",
+      "year": 2019,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 365
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG6",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 265
+    },
+    {
+      "source_id": "DIB_2022_GWT",
+      "site_id": "BRG6",
+      "region": "Batanghari",
+      "year": 2019,
+      "variable": "water_table_depth",
+      "evidence_type": "in_situ_observation",
+      "unit": "m below soil surface (per dataset paper)",
+      "rows": 280
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 260
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 260
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "m³/m³",
+      "rows": 260
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2025,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 73
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2025,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 73
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2026,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 292
+    },
+    {
+      "source_id": "ERA5_BATANGHARI_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Batanghari",
+      "year": 2026,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 292
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 260
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 260
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2018",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "m³/m³",
+      "rows": 260
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2025,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 73
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2025,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 73
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2026,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 292
+    },
+    {
+      "source_id": "ERA5_KUBURAYA_2025_2026",
+      "site_id": "regional_reanalysis_grid",
+      "region": "Kubu Raya",
+      "year": 2026,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 292
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 192
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 192
+    },
+    {
+      "source_id": "NASA_POWER_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "variable": "surface_soil_wetness",
+      "evidence_type": "gridded_reanalysis_proxy",
+      "unit": "1",
+      "rows": 192
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "variable": "air_temperature_max_2m",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "°C",
+      "rows": 192
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "variable": "precipitation",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "mm/day",
+      "rows": 192
+    },
+    {
+      "source_id": "OPEN_METEO_SABANGAU_DEMO_2023",
+      "site_id": "approx_request_point",
+      "region": "Sabangau demo; coordinate approximate",
+      "year": 2023,
+      "variable": "soil_moisture",
+      "evidence_type": "gridded_reanalysis",
+      "unit": "m³/m³",
+      "rows": 576
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "site_id": "Sabangau_study_series",
+      "region": "Sabangau; approximate study region",
+      "year": 2023,
+      "variable": "rainfall (study input; accumulation interval/unit unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "site_id": "Sabangau_study_series",
+      "region": "Sabangau; approximate study region",
+      "year": 2023,
+      "variable": "soil moisture (study input; basis/depth unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "site_id": "Sabangau_study_series",
+      "region": "Sabangau; approximate study region",
+      "year": 2023,
+      "variable": "temperature (study input; exact statistic unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192
+    },
+    {
+      "source_id": "PEATFR_SABANGAU_2023",
+      "site_id": "Sabangau_study_series",
+      "region": "Sabangau; approximate study region",
+      "year": 2023,
+      "variable": "water table (study input; sign/reference unspecified)",
+      "evidence_type": "published_study_dataset",
+      "unit": "unit not specified in workbook",
+      "rows": 192
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140302_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 75
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140302_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 199
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140312_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 122
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140402_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 64
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140402_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 352
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140405_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 27
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140405_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 352
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140411_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 50
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140411_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 351
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140412_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 54
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140412_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 322
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140415_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 52
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140415_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 331
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 57
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 352
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 26
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140508_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 348
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140613_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 34
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140613_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 333
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140701_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 11
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140701_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 269
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 73
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 318
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 73
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140702_03",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 234
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140713_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 72
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_140713_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 322
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_150709_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 104
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_150710_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 58
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_150710_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 285
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160205_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 48
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160205_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 143
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 5
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 224
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 52
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160214_02",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 150
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160609_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 23
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160609_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 185
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160611_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2018,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 53
+    },
+    {
+      "source_id": "SUMATRA_STATION_SM_V3",
+      "site_id": "BRG_160611_01",
+      "region": "Sumatra; exact region/site not resolved",
+      "year": 2019,
+      "variable": "soil_moisture",
+      "evidence_type": "station_series_method_unknown",
+      "unit": "% (header label; depth/method not supplied)",
+      "rows": 344
+    }
+  ],
+  "coordinate_crosswalk": [
+    {
+      "site_id": "BRG18",
+      "region": "Kubu Raya",
+      "latitude": -0.27979166666666666,
+      "longitude": 109.51923333333333,
+      "coordinate_reference": "geographic latitude/longitude converted to decimal degrees; datum not specified by source",
+      "location_role": "published_peat_sample_location",
+      "monitoring_well_location_verified": false,
+      "source_url": "https://doi.org/10.1016/j.dib.2022.107903",
+      "limitation": "Coordinates locate peat samples (BRG6/BRG18); article text does not establish them as surveyed well/logger coordinates."
+    },
+    {
+      "site_id": "BRG6",
+      "region": "Batanghari",
+      "latitude": -1.442811111111111,
+      "longitude": 103.96929722222222,
+      "coordinate_reference": "geographic latitude/longitude converted to decimal degrees; datum not specified by source",
+      "location_role": "published_peat_sample_location",
+      "monitoring_well_location_verified": false,
+      "source_url": "https://doi.org/10.1016/j.dib.2022.107903",
+      "limitation": "Coordinates locate peat samples (BRG6/BRG18); article text does not establish them as surveyed well/logger coordinates."
+    }
+  ],
+  "readiness": {
+    "ert_measurements": "missing",
+    "field_wt": "present",
+    "field_wt_geographic_coordinates": "missing",
+    "pfvi_per_site_ready": false,
+    "blockers": [
+      "Tidak ditemukan baris pengukuran lapangan ERT pada CSV yang diaudit.",
+      "Tidak ada rekaman WT lapangan dengan koordinat per baris; crosswalk lokasi sampel publikasi bukan koordinat sumur terverifikasi.",
+      "Crosswalk sumber menyediakan koordinat lokasi sampel BRG6/BRG18, bukan koordinat sumur/loggers; verifikasi survei lokasi monitoring masih diperlukan.",
+      "Belum ada rancangan grid/titik Kalimantan yang disepakati beserta ID spasial dan aturan agregasi tahunan.",
+      "Belum ada pasangan ERT–WT/SM ko-lokasi untuk kalibrasi dan validasi independen.",
+      "Audit cakupan ini belum membuktikan kelengkapan variabel, interval waktu, atau preflight input PeatFR per titik-tahun."
+    ]
+  },
+  "interpretation": [
+    "Kategori sumber, variabel, unit, dan tahun tetap terpisah; hitungan tidak menggabungkan observasi dengan reanalisis atau demo publikasi.",
+    "Koordinat BRG6/BRG18 hanya crosswalk lokasi sampel gambut sebagaimana dinyatakan publikasi, bukan hasil survei lokasi sumur.",
+    "PFVI tidak dihitung; data ERT dan validasi ko-lokasi belum tersedia dalam input audit."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-24T07:20:22+00:00",
+  "status": "AWAS",
+  "tier_level": 4,
+  "metrics": {
+    "latest_wt_m": -0.71,
+    "min_wt_m": -0.71,
+    "latest_sm_pct": 36.2,
+    "latest_rf_mm": 0.0,
+    "latest_pfvi": 246.03,
+    "max_pfvi": 246.03,
+    "estimated_surface_resistivity_ohm_m": 80.19
+  },
+  "message_text": "\ud83d\udea8 *PERINGATAN DINI KEBAKARAN GAMBUT KALIMANTAN*\n*Status Sistem:* EWS TIER 4 \u2014 AWAS\n*Waktu Deteksi:* 2026-10-24T07:20:22+00:00 UTC\n\n\ud83d\udcca *Metrik Lapangan Kritis:*\n\u2022 Kawasan: *Kalteng (Sebangau / Pulang Pisau)*\n\u2022 Muka Air Tanah (WT): *-0.71 m* (Ambang Kritis: -0.60 m)\n\u2022 Indeks Kerentanan (PFVI): *246.0* (Batas Ekstrem: 200)\n\u2022 Kelembapan Gambut (SM): *36.2%*\n\u2022 Resistivitas Lapisan Atas (\u03c1_surf): *80.2 \u03a9\u00b7m*\n\n\ud83d\udee0 *Rekomendasi Aksi Cepat Tim Lapangan / MPA:*\n1. Segera lakukan penutupan pintu air & sekat kanal sekunder untuk menahan MAT.\n2. Tingkatkan frekuensi patroli darat MPA di titik rawan kubah gambut.\n3. Siagakan unit water bombing udara dengan panduan diagram pagar 3D Surfer.",
+  "channels": [
+    "Telegram Bot MPA",
+    "Hermes Agent Cluster Notifications"
+  ]
+}

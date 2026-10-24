@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMATFR — Peatland Fire Vulnerability Index (PFVI) Kalimantan 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-base: #0a0d14;
+            --bg-card: rgba(18, 24, 38, 0.75);
+            --bg-card-hover: rgba(26, 34, 52, 0.85);
+            --border-glow: rgba(56, 189, 248, 0.15);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-cyan: #38bdf8;
+            --accent-amber: #f59e0b;
+            --accent-crimson: #f43f5e;
+            --accent-emerald: #10b981;
+            --accent-indigo: #6366f1;
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(244, 63, 94, 0.08) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(16, 185, 129, 0.05) 0px, transparent 50%);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphism Containers */
+        .glass-panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .glass-panel:hover {
+            border-color: var(--border-glow);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1.25rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 13, 20, 0.85);
+            backdrop-filter: blur(20px);
+        }
+
+        .nav-container {
+            max-width: 1350px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-badge {
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #0284c7, #f43f5e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+        }
+
+        .brand-text h1 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(to right, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .brand-text p {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        .header-links {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .btn-link {
+            padding: 8px 16px;
+            border-radius: 10px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn-portal {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+        .btn-portal:hover {
+            background: rgba(56, 189, 248, 0.2);
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+        }
+
+        .btn-n8n {
+            background: rgba(244, 63, 94, 0.1);
+            color: var(--accent-crimson);
+            border: 1px solid rgba(244, 63, 94, 0.3);
+        }
+        .btn-n8n:hover {
+            background: rgba(244, 63, 94, 0.2);
+            box-shadow: 0 0 15px rgba(244, 63, 94, 0.3);
+        }
+
+        main {
+            max-width: 1350px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Hero banner */
+        .hero-banner {
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(18, 24, 38, 0.7));
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 12px;
+            border-radius: 30px;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-emerald);
+            font-size: 0.75rem;
+            font-weight: 700;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            margin-bottom: 1rem;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-emerald);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent-emerald);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .hero-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-title span {
+            background: linear-gradient(135deg, #38bdf8, #f43f5e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1rem;
+            color: var(--text-muted);
+            max-width: 850px;
+            margin-bottom: 1.5rem;
+        }
+
+        .meta-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .meta-tag {
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+            color: #cbd5e1;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 12px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* KPI Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .kpi-card {
+            padding: 1.5rem;
+            position: relative;
+        }
+
+        .kpi-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .kpi-title {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .kpi-value {
+            font-size: 1.8rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            margin-bottom: 0.4rem;
+        }
+
+        .kpi-sub {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* Ranking Section */
+        .section-header {
+            margin-bottom: 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .ranking-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .rank-card {
+            padding: 1.25rem 1.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+            border-left: 6px solid transparent;
+        }
+
+        .rank-card.rank-1 { border-left-color: var(--accent-crimson); }
+        .rank-card.rank-2 { border-left-color: var(--accent-amber); }
+        .rank-card.rank-3 { border-left-color: var(--accent-cyan); }
+        .rank-card.rank-4 { border-left-color: var(--accent-emerald); }
+
+        .rank-left {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            flex: 2;
+        }
+
+        .rank-number {
+            font-size: 1.8rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            width: 45px;
+            color: var(--text-muted);
+        }
+
+        .rank-info h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+        }
+
+        .rank-info p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        .rank-stats {
+            display: flex;
+            gap: 2rem;
+            flex: 3;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .stat-item {
+            text-align: right;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .stat-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+
+        .badge-hazard {
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: var(--font-mono);
+        }
+
+        .hazard-extreme {
+            background: rgba(244, 63, 94, 0.2);
+            color: #fb7185;
+            border: 1px solid rgba(244, 63, 94, 0.4);
+        }
+
+        .hazard-moderate {
+            background: rgba(56, 189, 248, 0.2);
+            color: #7dd3fc;
+            border: 1px solid rgba(56, 189, 248, 0.4);
+        }
+
+        .hazard-low {
+            background: rgba(16, 185, 129, 0.2);
+            color: #6ee7b7;
+            border: 1px solid rgba(16, 185, 129, 0.4);
+        }
+
+        /* Tabs for Visualizations */
+        .tabs-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 0.75rem;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 600;
+            font-family: var(--font-sans);
+            padding: 8px 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .chart-img-wrapper {
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-subtle);
+            background: #000;
+            margin-bottom: 1.5rem;
+        }
+
+        .chart-img-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Interactive Simulator */
+        .simulator-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .control-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .control-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+
+        .control-label span {
+            font-family: var(--font-mono);
+            color: var(--accent-cyan);
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 6px;
+            background: #1e293b;
+            border-radius: 5px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            background: var(--accent-cyan);
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 10px var(--accent-cyan);
+        }
+
+        .sim-result-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            border-radius: 16px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-subtle);
+            text-align: center;
+        }
+
+        .sim-gauge-title {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        .sim-gauge-val {
+            font-size: 3.5rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            color: var(--accent-amber);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .sim-verdict {
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-top: 1rem;
+        }
+
+        /* Phiseis Collaboration Box */
+        .phiseis-box {
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            background: linear-gradient(135deg, rgba(30, 27, 75, 0.4), rgba(15, 23, 42, 0.7));
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .phiseis-avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #6366f1, #38bdf8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 0 25px rgba(99, 102, 241, 0.5);
+            flex-shrink: 0;
+        }
+
+        .phiseis-content h3 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 0.4rem;
+        }
+
+        .phiseis-content p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-subtle);
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 1.6rem; }
+            .rank-card { flex-direction: column; align-items: flex-start; }
+            .rank-stats { justify-content: space-between; width: 100%; }
+            .simulator-grid { grid-template-columns: 1fr; }
+            .phiseis-box { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo-group">
+                <div class="logo-badge">🔥</div>
+                <div class="brand-text">
+                    <h1>GAMATFR 2027</h1>
+                    <p>Peatland Fire Vulnerability Index • Kalimantan</p>
+                </div>
+            </div>
+            <div class="header-links">
+                <a href="https://gama-geofisika.web.id/" target="_blank" class="btn-link btn-portal">
+                    🌐 Portal HMGF UGM
+                </a>
+                <a href="https://n8nn.gama-geofisika.web.id/" target="_blank" class="btn-link btn-n8n">
+                    ⚙️ n8n Automation
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="glass-panel hero-banner">
+            <div class="hero-badge">
+                <div class="status-dot"></div>
+                Cloudflare HTTPS Active • Live Tunnel Singapore
+            </div>
+            <h2 class="hero-title">Sistem Pemeringkatan & Mitigasi Kerentanan Gambut <span>Kalimantan 2027</span></h2>
+            <p class="hero-desc">
+                Platform prediksi interaktif dan pemetaan risiko kebakaran lahan basah gambut berbasis algoritma 
+                <strong>PeatFR (Peatland Fire Vulnerability Index / Mahdiyasa et al., 2025)</strong>, proyeksi iklim CMIP6 
+                (EC_Earth3P_HR), serta orkestrasi AI terdistribusi <strong>Phiseis & Nissa</strong>.
+            </p>
+            <div class="meta-tags">
+                <span class="meta-tag">Domain: gamatfr.gama-geofisika.web.id</span>
+                <span class="meta-tag">Simulasi: 365 Hari Penuh 2027</span>
+                <span class="meta-tag">Ensemble: Reanalisis Open-Meteo & Kurva van Genuchten</span>
+                <span class="meta-tag">Node: Linux NAS (100.100.86.55)</span>
+            </div>
+        </div>
+
+        <!-- KPI Grid -->
+        <div class="kpi-grid">
+            <div class="glass-panel kpi-card">
+                <div class="kpi-header">
+                    <span class="kpi-title">Titik Paling Kritis</span>
+                    <span>📍</span>
+                </div>
+                <div class="kpi-value" style="color: var(--accent-crimson);">Kalteng</div>
+                <div class="kpi-sub">Sebangau / Palangka Raya (Mean PFVI: 148.0)</div>
+            </div>
+
+            <div class="glass-panel kpi-card">
+                <div class="kpi-header">
+                    <span class="kpi-title">Rentang Kemarau Ekstrem</span>
+                    <span>⏳</span>
+                </div>
+                <div class="kpi-value" style="color: var(--accent-amber);">120 Hari</div>
+                <div class="kpi-sub">3 Agustus – 30 November (Pulang Pisau)</div>
+            </div>
+
+            <div class="glass-panel kpi-card">
+                <div class="kpi-header">
+                    <span class="kpi-title">Muka Air Tanah Terendah</span>
+                    <span>💧</span>
+                </div>
+                <div class="kpi-value" style="color: var(--accent-cyan);">-0.99 m</div>
+                <div class="kpi-sub">Penurunan kritis desaturasi gambut</div>
+            </div>
+
+            <div class="glass-panel kpi-card">
+                <div class="kpi-header">
+                    <span class="kpi-title">Wilayah Paling Basah</span>
+                    <span>🛡️</span>
+                </div>
+                <div class="kpi-value" style="color: var(--accent-emerald);">Kalbar</div>
+                <div class="kpi-sub">Kubu Raya (Hujan 3.689 mm, PFVI: 46.5)</div>
+            </div>
+        </div>
+
+        <!-- Ranking Section -->
+        <div class="section-header">
+            <h2>🏆 Pemeringkatan Kerentanan 4 Kawasan Gambut Utama (Tahun 2027)</h2>
+            <span style="font-size: 0.82rem; color: var(--text-muted); font-family: var(--font-mono);">Skala Indeks: 0 (Aman) – 300 (Ekstrem)</span>
+        </div>
+
+        <div class="ranking-grid">
+            <!-- Rank 1 -->
+            <div class="glass-panel rank-card rank-1">
+                <div class="rank-left">
+                    <div class="rank-number">01</div>
+                    <div class="rank-info">
+                        <h3>Kalimantan Tengah — TN Sebangau / Palangka Raya</h3>
+                        <p>Kubah Gambut Pedalaman • Lat -2.30, Lon 113.90</p>
+                    </div>
+                </div>
+                <div class="rank-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Rata-rata PFVI</div>
+                        <div class="stat-value" style="color: #fb7185;">148.03</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Hari Risiko Ekstrem</div>
+                        <div class="stat-value">87 Hari</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Curah Hujan</div>
+                        <div class="stat-value">2.137 mm</div>
+                    </div>
+                    <span class="badge-hazard hazard-extreme">Bahaya Ekstrem</span>
+                </div>
+            </div>
+
+            <!-- Rank 2 -->
+            <div class="glass-panel rank-card rank-2">
+                <div class="rank-left">
+                    <div class="rank-number">02</div>
+                    <div class="rank-info">
+                        <h3>Kalimantan Selatan / Tengah — Kawasan Pulang Pisau</h3>
+                        <p>KHG Kahayan - Sebangau • Lat -2.80, Lon 114.50</p>
+                    </div>
+                </div>
+                <div class="rank-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Rata-rata PFVI</div>
+                        <div class="stat-value" style="color: #f59e0b;">147.63</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Hari Risiko Ekstrem</div>
+                        <div class="stat-value">79 Hari</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Curah Hujan</div>
+                        <div class="stat-value">1.801 mm</div>
+                    </div>
+                    <span class="badge-hazard hazard-extreme">Bahaya Ekstrem</span>
+                </div>
+            </div>
+
+            <!-- Rank 3 -->
+            <div class="glass-panel rank-card rank-3">
+                <div class="rank-left">
+                    <div class="rank-number">03</div>
+                    <div class="rank-info">
+                        <h3>Kalimantan Timur — Delta Mahakam / Kutai Kartanegara</h3>
+                        <p>Gambut Dataran Rendah • Lat -0.50, Lon 117.15</p>
+                    </div>
+                </div>
+                <div class="rank-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Rata-rata PFVI</div>
+                        <div class="stat-value" style="color: #38bdf8;">71.12</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Hari Bahaya Tinggi</div>
+                        <div class="stat-value">24 Hari</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Curah Hujan</div>
+                        <div class="stat-value">2.961 mm</div>
+                    </div>
+                    <span class="badge-hazard hazard-moderate">Bahaya Sedang</span>
+                </div>
+            </div>
+
+            <!-- Rank 4 -->
+            <div class="glass-panel rank-card rank-4">
+                <div class="rank-left">
+                    <div class="rank-number">04</div>
+                    <div class="rank-info">
+                        <h3>Kalimantan Barat — Kubu Raya / Rasau Jaya</h3>
+                        <p>Gambut Pesisir Basah • Lat -0.15, Lon 109.40</p>
+                    </div>
+                </div>
+                <div class="rank-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Rata-rata PFVI</div>
+                        <div class="stat-value" style="color: #10b981;">46.52</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Hari Bahaya Tinggi</div>
+                        <div class="stat-value">0 Hari</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Curah Hujan</div>
+                        <div class="stat-value">3.689 mm</div>
+                    </div>
+                    <span class="badge-hazard hazard-low">Aman / Rendah</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visualizations Tabs -->
+        <div class="section-header">
+            <h2>📈 Galeri Visualisasi & Analisis Komputasi</h2>
+        </div>
+
+        <div class="tabs-nav">
+            <button class="tab-btn active" onclick="switchTab('tab-dynamics')">Dinamika Harian 2027</button>
+            <button class="tab-btn" onclick="switchTab('tab-multi')">Simulasi Multi-Skenario Iklim</button>
+            <button class="tab-btn" onclick="switchTab('tab-ert')">Integrasi Geolistrik ERT & EWS</button>
+        </div>
+
+        <!-- Tab 1 -->
+        <div id="tab-dynamics" class="glass-panel tab-content active">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Plot Dinamika Kerentanan Kebakaran Gambut Kalimantan (365 Hari Tahun 2027)</h3>
+            <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.25rem;">
+                Menunjukkan grafik fluktuasi harian indeks PFVI. Terlihat jelas penurunan tajam saat musim hujan monsun barat (Januari–Maret & Desember),
+                serta lonjakan curam menyentuh batas saturasi 300 di Kalteng dan Kalsel selama puncak kemarau (Agustus–November).
+            </p>
+            <div class="chart-img-wrapper">
+                <img src="/images/kalimantan_2027_pfvi_dynamics.png" alt="Grafik Dinamika Harian PFVI 2027">
+            </div>
+        </div>
+
+        <!-- Tab 2 -->
+        <div id="tab-multi" class="glass-panel tab-content">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Simulasi Multi-Skenario Iklim & Sensitivitas van Genuchten</h3>
+            <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.25rem;">
+                Komparasi skenario dampak El Niño Kuat (+25% kemarau), El Niño Moderat, Kondisi Normal, dan La Niña (+30% curah hujan), 
+                beserta evaluasi efektivitas rewetting sekat kanal dalam meredam durasi hari kritis.
+            </p>
+            <div class="chart-img-wrapper">
+                <img src="/images/kalimantan_2027_multi_scenario_sensitivity.png" alt="Simulasi Multi-Skenario Iklim">
+            </div>
+        </div>
+
+        <!-- Tab 3 -->
+        <div id="tab-ert" class="glass-panel tab-content">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Integrasi Petrofisika Geolistrik ERT & Early Warning System (EWS)</h3>
+            <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.25rem;">
+                Korelasi resistivitas semu semikonduktif gambut terhadap desaturasi air tanah, penetapan matriks ambang 4-tier EWS (Normal, Waspada, Siaga, Awas),
+                serta skema pemicu webhook otomatis multi-agent cluster NAS.
+            </p>
+            <div class="chart-img-wrapper">
+                <img src="/images/kalimantan_2027_ert_petrophysics_ews.png" alt="Petrofisika ERT dan EWS">
+            </div>
+        </div>
+
+        <!-- Interactive Simulator -->
+        <div class="section-header">
+            <h2>🎛️ Simulator Kalkulasi Cepat PeatFR Real-Time</h2>
+        </div>
+
+        <div class="glass-panel simulator-grid">
+            <div class="sim-controls">
+                <h3 style="font-size: 1.1rem; margin-bottom: 1.25rem;">Atur Parameter Cuaca & Tanah Gambut</h3>
+                
+                <div class="control-group">
+                    <div class="control-label">
+                        <label>Suhu Maksimum Harian (Temp):</label>
+                        <span id="val-temp">33.5 °C</span>
+                    </div>
+                    <input type="range" id="input-temp" min="26" max="38" step="0.1" value="33.5" oninput="runSim()">
+                </div>
+
+                <div class="control-group">
+                    <div class="control-label">
+                        <label>Curah Hujan Harian (Rainfall):</label>
+                        <span id="val-rain">2.0 mm</span>
+                    </div>
+                    <input type="range" id="input-rain" min="0" max="60" step="0.5" value="2.0" oninput="runSim()">
+                </div>
+
+                <div class="control-group">
+                    <div class="control-label">
+                        <label>Kelembapan Tanah Gambut (Soil Moisture):</label>
+                        <span id="val-sm">45 %</span>
+                    </div>
+                    <input type="range" id="input-sm" min="20" max="75" step="1" value="45" oninput="runSim()">
+                </div>
+
+                <div class="control-group">
+                    <div class="control-label">
+                        <label>Kedalaman Muka Air Tanah (Water Table - WT):</label>
+                        <span id="val-wt">-0.80 m</span>
+                    </div>
+                    <input type="range" id="input-wt" min="-1.4" max="0.0" step="0.05" value="-0.80" oninput="runSim()">
+                </div>
+            </div>
+
+            <div class="sim-result-box">
+                <div class="sim-gauge-title">Skor Indeks Kerentanan (PFVI)</div>
+                <div class="sim-gauge-val" id="res-pfvi">242.8</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;" id="res-components">
+                    DF: +4.2 | RF: -0.0 | WTF: -0.15
+                </div>
+                <div class="sim-verdict hazard-extreme" id="res-verdict">STATUS: BAHAYA EKSTREM</div>
+            </div>
+        </div>
+
+        <!-- Phiseis AI Collaboration Box -->
+        <div class="glass-panel phiseis-box">
+            <div class="phiseis-avatar">🤖</div>
+            <div class="phiseis-content">
+                <h3>Kolaborasi Ekosistem AI NAS: Phiseis × Nissa × Healtrack</h3>
+                <p>
+                    Seluruh model prediksi, otomasi Cloudflare, dan pipeline kalkulasi berjalan secara lokal di server NAS 
+                    (100.100.86.55) tanpa bergantung pada layanan komputasi eksternal. Sistem terhubung langsung dengan 
+                    webhook <strong>n8n</strong> (<a href="https://n8nn.gama-geofisika.web.id/" target="_blank" style="color: #38bdf8;">n8nn.gama-geofisika.web.id</a>) 
+                    dan repositori catatan riset otomatis di <strong>Obsidian Vault</strong>.
+                </p>
+                <div style="display: flex; gap: 15px; font-size: 0.82rem; font-family: var(--font-mono);">
+                    <span>• Node: Linux NAS (localai)</span>
+                    <span>• Bot Identity: Phiseis</span>
+                    <span>• Uptime Guard: Active 30m</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <strong>GAMATFR System</strong> — Peatland Fire Vulnerability Index Kalimantan 2027<br>
+            Dikembangkan bersama oleh <strong>HMGF UGM (GAMA Geofisika)</strong> & <strong>Phiseis Hermes Agent Cluster</strong>.<br>
+            Tersambung aman melalui <a href="https://www.cloudflare.com/" target="_blank">Cloudflare Zero Trust Tunnel</a>.
+        </p>
+    </footer>
+
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        function runSim() {
+            const T = parseFloat(document.getElementById('input-temp').value);
+            const R = parseFloat(document.getElementById('input-rain').value);
+            const SM = parseFloat(document.getElementById('input-sm').value);
+            const WT = parseFloat(document.getElementById('input-wt').value);
+
+            document.getElementById('val-temp').innerText = T.toFixed(1) + " °C";
+            document.getElementById('val-rain').innerText = R.toFixed(1) + " mm";
+            document.getElementById('val-sm').innerText = SM.toFixed(0) + " %";
+            document.getElementById('val-wt').innerText = WT.toFixed(2) + " m";
+
+            // PeatFR Formulation
+            const aH = 5.67, bH = 0.116, n = 1.24, alpha = 0.428;
+            const depth = WT > 0 ? 0 : -WT;
+            
+            // Baseline DI from SM
+            let observed_DI = 300.0 * (1.0 - ((SM - 40.0) / (70.0 - 40.0)));
+            observed_DI = Math.max(0.0, Math.min(300.0, observed_DI));
+
+            // Evaporative Drying Factor (DF)
+            const df = (300.0 - observed_DI) * (0.4982 * Math.exp(0.0905 * T + 1.6096) - 4.268) * 0.001 / (1.0 + 10.88 * Math.exp(-0.001736 * 3000));
+            
+            // Rainfall wetting factor (RF)
+            const rf = R < 5.1 ? 0 : (R - 5.1);
+
+            // Water table fluctuation (WTF) van Genuchten
+            const m = 1.0 - (1.0 / n);
+            const theta = Math.pow(1.0 + Math.pow(depth / alpha, n), -m);
+            const wtf = aH - bH * ((1.0 - theta) * 300.0);
+
+            // Simulated PFVI
+            let pfvi = observed_DI + df - rf - wtf;
+            pfvi = Math.max(0.0, Math.min(300.0, pfvi));
+
+            document.getElementById('res-pfvi').innerText = pfvi.toFixed(1);
+            document.getElementById('res-components').innerText = `DF: +${df.toFixed(2)} | RF: -${rf.toFixed(1)} | WTF: ${wtf.toFixed(2)}`;
+
+            const verdictEl = document.getElementById('res-verdict');
+            if (pfvi >= 250) {
+                verdictEl.className = 'sim-verdict hazard-extreme';
+                verdictEl.innerText = 'STATUS: BAHAYA EKSTREM (SIAGA 1)';
+                document.getElementById('res-pfvi').style.color = 'var(--accent-crimson)';
+            } else if (pfvi >= 200) {
+                verdictEl.className = 'sim-verdict hazard-extreme';
+                verdictEl.style.background = 'rgba(245, 158, 11, 0.2)';
+                verdictEl.style.color = '#f59e0b';
+                verdictEl.innerText = 'STATUS: BAHAYA TINGGI (SIAGA 2)';
+                document.getElementById('res-pfvi').style.color = 'var(--accent-amber)';
+            } else if (pfvi >= 100) {
+                verdictEl.className = 'sim-verdict hazard-moderate';
+                verdictEl.innerText = 'STATUS: RISIKO SEDANG (WASPADA)';
+                document.getElementById('res-pfvi').style.color = 'var(--accent-cyan)';
+            } else {
+                verdictEl.className = 'sim-verdict hazard-low';
+                verdictEl.innerText = 'STATUS: KONDISI AMAN / BASAH';
+                document.getElementById('res-pfvi').style.color = 'var(--accent-emerald)';
+            }
+        }
+
+        // Initialize simulator on load
+        runSim();
+    </script>
+</body>
+</html>

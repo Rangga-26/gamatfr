@@ -1,0 +1,363 @@
+{
+  "analysis_name": "Analisis Durasi & Periode Kritis Kemarau Kalimantan 2027",
+  "generated_at_utc": "2026-10-21T18:03:43Z",
+  "critical_window": {
+    "start": "2027-08-01",
+    "end": "2027-11-30",
+    "total_days": 122
+  },
+  "regions": {
+    "Kalbar_Kubu_Raya": {
+      "region_id": "Kalbar_Kubu_Raya",
+      "region_name": "Kalimantan Barat (Kubu Raya / Rasau Jaya)",
+      "dry_season_metrics": {
+        "total_days_eval": 122,
+        "mean_pfvi": 48.64,
+        "peak_pfvi": 182.24,
+        "peak_date": "2027-08-20",
+        "onset_high_risk_ge_200": null,
+        "days_high_risk_ge_200": 0,
+        "days_extreme_risk_ge_250": 0,
+        "share_of_annual_high_risk_pct": 0.0,
+        "longest_consecutive_high_risk_ge_200": {
+          "duration_days": 0,
+          "start_date": null,
+          "end_date": null
+        },
+        "longest_consecutive_extreme_risk_ge_250": {
+          "duration_days": 0,
+          "start_date": null,
+          "end_date": null
+        },
+        "lowest_water_table_m": -0.703,
+        "lowest_water_table_date": "2027-08-13",
+        "lowest_soil_moisture_pct": 48.73,
+        "lowest_soil_moisture_date": "2027-08-13",
+        "total_rainfall_mm": 1421.1,
+        "mean_temp_max_c": 30.78,
+        "restoration_inflection": {
+          "date": "2027-08-22",
+          "prior_3day_rainfall_mm": 45.3
+        }
+      },
+      "monthly_breakdown": {
+        "Agustus": {
+          "month_num": 8,
+          "month_name": "Agustus",
+          "days": 31,
+          "mean_pfvi": 137.69,
+          "max_pfvi": 182.24,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 209.0,
+          "mean_wt_depth_m": -0.52,
+          "min_wt_depth_m": -0.703,
+          "mean_sm_pct": 55.17
+        },
+        "September": {
+          "month_num": 9,
+          "month_name": "September",
+          "days": 30,
+          "mean_pfvi": 41.88,
+          "max_pfvi": 110.78,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 396.1,
+          "mean_wt_depth_m": -0.361,
+          "min_wt_depth_m": -0.509,
+          "mean_sm_pct": 60.8
+        },
+        "Oktober": {
+          "month_num": 10,
+          "month_name": "Oktober",
+          "days": 31,
+          "mean_pfvi": 9.41,
+          "max_pfvi": 43.62,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 397.4,
+          "mean_wt_depth_m": -0.291,
+          "min_wt_depth_m": -0.44,
+          "mean_sm_pct": 63.27
+        },
+        "November": {
+          "month_num": 11,
+          "month_name": "November",
+          "days": 30,
+          "mean_pfvi": 3.92,
+          "max_pfvi": 17.41,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 418.7,
+          "mean_wt_depth_m": -0.22,
+          "min_wt_depth_m": -0.287,
+          "mean_sm_pct": 65.77
+        }
+      }
+    },
+    "Kalsel_Pulang_Pisau": {
+      "region_id": "Kalsel_Pulang_Pisau",
+      "region_name": "Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan)",
+      "dry_season_metrics": {
+        "total_days_eval": 122,
+        "mean_pfvi": 263.48,
+        "peak_pfvi": 300.0,
+        "peak_date": "2027-10-23",
+        "onset_high_risk_ge_200": "2027-08-03",
+        "days_high_risk_ge_200": 120,
+        "days_extreme_risk_ge_250": 79,
+        "share_of_annual_high_risk_pct": 98.4,
+        "longest_consecutive_high_risk_ge_200": {
+          "duration_days": 120,
+          "start_date": "2027-08-03",
+          "end_date": "2027-11-30"
+        },
+        "longest_consecutive_extreme_risk_ge_250": {
+          "duration_days": 78,
+          "start_date": "2027-09-08",
+          "end_date": "2027-11-24"
+        },
+        "lowest_water_table_m": -0.992,
+        "lowest_water_table_date": "2027-11-02",
+        "lowest_soil_moisture_pct": 38.51,
+        "lowest_soil_moisture_date": "2027-11-02",
+        "total_rainfall_mm": 249.0,
+        "mean_temp_max_c": 33.59,
+        "restoration_inflection": {
+          "date": "2027-12-12",
+          "prior_3day_rainfall_mm": 29.0
+        }
+      },
+      "monthly_breakdown": {
+        "Agustus": {
+          "month_num": 8,
+          "month_name": "Agustus",
+          "days": 31,
+          "mean_pfvi": 228.23,
+          "max_pfvi": 250.43,
+          "days_pfvi_ge_200": 29,
+          "days_pfvi_ge_250": 1,
+          "total_rain_mm": 52.4,
+          "mean_wt_depth_m": -0.547,
+          "min_wt_depth_m": -0.657,
+          "mean_sm_pct": 54.23
+        },
+        "September": {
+          "month_num": 9,
+          "month_name": "September",
+          "days": 30,
+          "mean_pfvi": 260.75,
+          "max_pfvi": 278.57,
+          "days_pfvi_ge_200": 30,
+          "days_pfvi_ge_250": 23,
+          "total_rain_mm": 31.2,
+          "mean_wt_depth_m": -0.662,
+          "min_wt_depth_m": -0.72,
+          "mean_sm_pct": 50.17
+        },
+        "Oktober": {
+          "month_num": 10,
+          "month_name": "Oktober",
+          "days": 31,
+          "mean_pfvi": 289.7,
+          "max_pfvi": 300.0,
+          "days_pfvi_ge_200": 31,
+          "days_pfvi_ge_250": 31,
+          "total_rain_mm": 21.6,
+          "mean_wt_depth_m": -0.814,
+          "min_wt_depth_m": -0.969,
+          "mean_sm_pct": 44.81
+        },
+        "November": {
+          "month_num": 11,
+          "month_name": "November",
+          "days": 30,
+          "mean_pfvi": 275.54,
+          "max_pfvi": 300.0,
+          "days_pfvi_ge_200": 30,
+          "days_pfvi_ge_250": 24,
+          "total_rain_mm": 143.9,
+          "mean_wt_depth_m": -0.75,
+          "min_wt_depth_m": -0.992,
+          "mean_sm_pct": 47.04
+        }
+      }
+    },
+    "Kalteng_Sabangau": {
+      "region_id": "Kalteng_Sabangau",
+      "region_name": "Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya)",
+      "dry_season_metrics": {
+        "total_days_eval": 122,
+        "mean_pfvi": 264.5,
+        "peak_pfvi": 300.0,
+        "peak_date": "2027-10-27",
+        "onset_high_risk_ge_200": "2027-08-04",
+        "days_high_risk_ge_200": 117,
+        "days_extreme_risk_ge_250": 87,
+        "share_of_annual_high_risk_pct": 100.0,
+        "longest_consecutive_high_risk_ge_200": {
+          "duration_days": 117,
+          "start_date": "2027-08-04",
+          "end_date": "2027-11-28"
+        },
+        "longest_consecutive_extreme_risk_ge_250": {
+          "duration_days": 78,
+          "start_date": "2027-09-06",
+          "end_date": "2027-11-22"
+        },
+        "lowest_water_table_m": -0.978,
+        "lowest_water_table_date": "2027-10-28",
+        "lowest_soil_moisture_pct": 39.01,
+        "lowest_soil_moisture_date": "2027-10-28",
+        "total_rainfall_mm": 320.8,
+        "mean_temp_max_c": 33.22,
+        "restoration_inflection": {
+          "date": "2027-12-08",
+          "prior_3day_rainfall_mm": 19.8
+        }
+      },
+      "monthly_breakdown": {
+        "Agustus": {
+          "month_num": 8,
+          "month_name": "Agustus",
+          "days": 31,
+          "mean_pfvi": 233.16,
+          "max_pfvi": 266.25,
+          "days_pfvi_ge_200": 28,
+          "days_pfvi_ge_250": 9,
+          "total_rain_mm": 64.6,
+          "mean_wt_depth_m": -0.665,
+          "min_wt_depth_m": -0.799,
+          "mean_sm_pct": 50.07
+        },
+        "September": {
+          "month_num": 9,
+          "month_name": "September",
+          "days": 30,
+          "mean_pfvi": 266.9,
+          "max_pfvi": 282.86,
+          "days_pfvi_ge_200": 30,
+          "days_pfvi_ge_250": 25,
+          "total_rain_mm": 49.0,
+          "mean_wt_depth_m": -0.773,
+          "min_wt_depth_m": -0.859,
+          "mean_sm_pct": 46.26
+        },
+        "Oktober": {
+          "month_num": 10,
+          "month_name": "Oktober",
+          "days": 31,
+          "mean_pfvi": 286.31,
+          "max_pfvi": 300.0,
+          "days_pfvi_ge_200": 31,
+          "days_pfvi_ge_250": 31,
+          "total_rain_mm": 54.7,
+          "mean_wt_depth_m": -0.849,
+          "min_wt_depth_m": -0.978,
+          "mean_sm_pct": 43.58
+        },
+        "November": {
+          "month_num": 11,
+          "month_name": "November",
+          "days": 30,
+          "mean_pfvi": 271.94,
+          "max_pfvi": 300.0,
+          "days_pfvi_ge_200": 28,
+          "days_pfvi_ge_250": 22,
+          "total_rain_mm": 152.6,
+          "mean_wt_depth_m": -0.731,
+          "min_wt_depth_m": -0.963,
+          "mean_sm_pct": 47.73
+        }
+      }
+    },
+    "Kaltim_Kutai_Kartanegara": {
+      "region_id": "Kaltim_Kutai_Kartanegara",
+      "region_name": "Kalimantan Timur (Delta Mahakam / Kutai Kartanegara)",
+      "dry_season_metrics": {
+        "total_days_eval": 122,
+        "mean_pfvi": 149.22,
+        "peak_pfvi": 247.62,
+        "peak_date": "2027-11-23",
+        "onset_high_risk_ge_200": "2027-11-03",
+        "days_high_risk_ge_200": 24,
+        "days_extreme_risk_ge_250": 0,
+        "share_of_annual_high_risk_pct": 100.0,
+        "longest_consecutive_high_risk_ge_200": {
+          "duration_days": 22,
+          "start_date": "2027-11-06",
+          "end_date": "2027-11-27"
+        },
+        "longest_consecutive_extreme_risk_ge_250": {
+          "duration_days": 0,
+          "start_date": null,
+          "end_date": null
+        },
+        "lowest_water_table_m": -0.653,
+        "lowest_water_table_date": "2027-11-04",
+        "lowest_soil_moisture_pct": 50.47,
+        "lowest_soil_moisture_date": "2027-11-04",
+        "total_rainfall_mm": 562.6,
+        "mean_temp_max_c": 31.33,
+        "restoration_inflection": {
+          "date": "2027-12-05",
+          "prior_3day_rainfall_mm": 48.9
+        }
+      },
+      "monthly_breakdown": {
+        "Agustus": {
+          "month_num": 8,
+          "month_name": "Agustus",
+          "days": 31,
+          "mean_pfvi": 117.33,
+          "max_pfvi": 150.58,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 168.5,
+          "mean_wt_depth_m": -0.418,
+          "min_wt_depth_m": -0.507,
+          "mean_sm_pct": 58.77
+        },
+        "September": {
+          "month_num": 9,
+          "month_name": "September",
+          "days": 30,
+          "mean_pfvi": 123.16,
+          "max_pfvi": 166.08,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 155.9,
+          "mean_wt_depth_m": -0.451,
+          "min_wt_depth_m": -0.566,
+          "mean_sm_pct": 57.62
+        },
+        "Oktober": {
+          "month_num": 10,
+          "month_name": "Oktober",
+          "days": 31,
+          "mean_pfvi": 139.33,
+          "max_pfvi": 189.93,
+          "days_pfvi_ge_200": 0,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 116.9,
+          "mean_wt_depth_m": -0.491,
+          "min_wt_depth_m": -0.605,
+          "mean_sm_pct": 56.21
+        },
+        "November": {
+          "month_num": 11,
+          "month_name": "November",
+          "days": 30,
+          "mean_pfvi": 218.45,
+          "max_pfvi": 247.62,
+          "days_pfvi_ge_200": 24,
+          "days_pfvi_ge_250": 0,
+          "total_rain_mm": 121.3,
+          "mean_wt_depth_m": -0.595,
+          "min_wt_depth_m": -0.653,
+          "mean_sm_pct": 52.54
+        }
+      }
+    }
+  }
+}

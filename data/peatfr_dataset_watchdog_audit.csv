@@ -1,0 +1,10 @@
+filename,relative_path,description,format,exists,size_bytes,sha256,last_modified_utc,integrity_status
+sabangau_public_dataset.csv,dataset_bundle/raw/sabangau_public_dataset.csv,"Dataset Publik Sabangau (WT, SM, Rf, Temp)",csv,True,11046,f0c9e4c3ef5bd0f35580f39f034f7e4873f5479ed881ff8884bcd1f06a0d7a4f,2026-10-21T09:40:42Z,VALID
+Dataset_Sabangau.xlsx,raw/Dataset_Sabangau.xlsx,Workbook Sumber Sabangau 2018 (Original Raw),xlsx,True,18212,4af64503303bf78093cbf032050ab7f9ee550c16b926f573f9ee9c0138aaa953,2026-10-21T08:23:40Z,VALID
+groundwater_dib_data.xlsx,raw/groundwater_dib_data.xlsx,Workbook Muka Air Tanah DIB Kubu Raya (Original Raw),xlsx,True,113885,fe3fd7dd964fc1b4adc6a9696c5693fc9496a6fc574a8266dafa93dc0503aa1b,2026-10-20T12:26:37Z,VALID
+groundwater_supplementary.zip,raw/groundwater_supplementary.zip,Arsip Suplemen Muka Air Tanah DIB,zip,True,417385,01c760e9f6c7adfe85322d8681efe77e5fe8c8a4cfd8ff3af49da61a578ffb44,2026-10-20T12:26:37Z,VALID
+batanghari_era5_2018.json,raw/batanghari_era5_2018.json,Reanalisis Iklim Batanghari 2018 (Open-Meteo ERA5),json,True,174928,0f33605ccd4ee7122adebd1269416e982ef97aca0fff87e910518af481f27a34,2026-10-20T13:39:26Z,VALID
+kubu_raya_era5_2018.json,raw/kubu_raya_era5_2018.json,Reanalisis Iklim Kubu Raya 2018 (Open-Meteo ERA5),json,True,174846,80ea2504850496c4d04e82d8e7873a3de3eb36230bb4318c288dcb93306a9e47,2026-10-20T13:39:32Z,VALID
+sumatra_daily_moisture_v3.csv,raw/sumatra_daily_moisture_v3.csv,Observasi Kelembaban Tanah Stasiun Sumatra,csv,True,202294,934f9ca8ba087cc929416b419dcb1a32c53312a3c7c42d0b21f71550b023f62b,2026-10-20T12:42:24Z,VALID
+batanghari_era5_2026.json,raw/batanghari_era5_2026.json,Katalog Reanalisis Batanghari 2026,json,True,16219,24ba80946b3625ab9235c8591e8a6aa66d647c0bf4fe5e66fcd148c1dd759a50,2026-10-20T22:30:34Z,VALID
+kubu_raya_era5_2026.json,raw/kubu_raya_era5_2026.json,Katalog Reanalisis Kubu Raya 2026,json,True,16199,a5038c5bbe1c96c3af2f0f77d53c2f6d9bb228dc894cd4fb5549cb658da36ff5,2026-10-20T22:30:40Z,VALID

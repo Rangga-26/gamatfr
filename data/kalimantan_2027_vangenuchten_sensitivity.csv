@@ -1,0 +1,17 @@
+peat_type_id,peat_type_name,n_parameter,alpha_parameter,region_id,region_name,mean_wtf,min_wtf,max_wtf,mean_pfvi,max_pfvi,days_high_risk_ge_200,days_extreme_risk_ge_250
+Fibrik_Alami,"Gambut Fibrik (Porositas Tinggi, Sedikit Terdekomposisi)",1.35,0.55,Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),0.401,-3.337,5.297,153.46,300.0,121,97
+Fibrik_Alami,"Gambut Fibrik (Porositas Tinggi, Sedikit Terdekomposisi)",1.35,0.55,Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),1.497,-3.425,5.324,149.96,300.0,123,87
+Fibrik_Alami,"Gambut Fibrik (Porositas Tinggi, Sedikit Terdekomposisi)",1.35,0.55,Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),2.315,-1.375,5.324,48.52,191.25,0,0
+Fibrik_Alami,"Gambut Fibrik (Porositas Tinggi, Sedikit Terdekomposisi)",1.35,0.55,Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),2.209,-0.963,5.324,73.35,258.31,30,6
+Hemik_Standar_PeatFR,Gambut Hemik (Standar Acuan PeatFR Sabangau),1.24,0.428,Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),0.735,-2.235,5.186,148.03,300.0,117,87
+Hemik_Standar_PeatFR,Gambut Hemik (Standar Acuan PeatFR Sabangau),1.24,0.428,Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),1.681,-2.303,5.219,147.63,300.0,122,79
+Hemik_Standar_PeatFR,Gambut Hemik (Standar Acuan PeatFR Sabangau),1.24,0.428,Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),2.353,-0.716,5.219,46.51,182.23,0,0
+Hemik_Standar_PeatFR,Gambut Hemik (Standar Acuan PeatFR Sabangau),1.24,0.428,Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),2.265,-0.393,5.219,71.12,247.63,24,0
+Saprik_Terdegradasi,"Gambut Saprik (Kompak, Terdekomposisi Lanjut)",1.15,0.3,Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),1.343,-0.839,5.095,136.19,293.14,112,65
+Saprik_Terdegradasi,"Gambut Saprik (Kompak, Terdekomposisi Lanjut)",1.15,0.3,Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),2.097,-0.887,5.13,140.12,300.0,117,67
+Saprik_Terdegradasi,"Gambut Saprik (Kompak, Terdekomposisi Lanjut)",1.15,0.3,Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),2.605,0.249,5.13,41.67,166.78,0,0
+Saprik_Terdegradasi,"Gambut Saprik (Kompak, Terdekomposisi Lanjut)",1.15,0.3,Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),2.54,0.484,5.13,65.09,229.2,14,0
+Saprik_Sangat_Padat,Gambut Saprik Sangat Padat (Muck Peat Terbakar Berulang),1.1,0.2,Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),1.791,0.132,5.016,126.29,274.97,100,25
+Saprik_Sangat_Padat,Gambut Saprik Sangat Padat (Muck Peat Terbakar Berulang),1.1,0.2,Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),2.406,0.096,5.053,132.95,284.54,107,40
+Saprik_Sangat_Padat,Gambut Saprik Sangat Padat (Muck Peat Terbakar Berulang),1.1,0.2,Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),2.802,0.941,5.053,38.02,156.64,0,0
+Saprik_Sangat_Padat,Gambut Saprik Sangat Padat (Muck Peat Terbakar Berulang),1.1,0.2,Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),2.754,1.117,5.053,60.48,215.63,9,0

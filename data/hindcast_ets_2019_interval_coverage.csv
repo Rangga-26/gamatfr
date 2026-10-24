@@ -1,0 +1,6 @@
+"region","station","model","n_train","n_holdout_observed","observed_first","observed_last","coverage80_pct","coverage95_pct","mean_width80_cm","mean_width95_cm"
+"Batanghari","BRG3","ETS_single_origin",260,242,2018-12-29,2019-08-27,100,100,119.086409422664,182.126946579342
+"Batanghari","BRG6","ETS_single_origin",260,283,2018-12-29,2019-10-07,100,100,227.757139081126,348.324485586492
+"Kubu Raya","BRG17","ETS_single_origin",260,174,2018-12-29,2019-06-20,100,100,149.948908646917,229.327066011699
+"Kubu Raya","BRG19","ETS_single_origin",260,274,2018-12-29,2019-11-14,100,100,185.88836853415,284.291726737517
+"Kubu Raya","BRG20","ETS_single_origin",260,177,2018-12-29,2019-12-28,99.4350282485876,100,138.213242870669,211.378914041497

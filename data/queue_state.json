@@ -1,0 +1,145 @@
+{
+  "current_step": 11,
+  "total_planned_steps": 11,
+  "queue_status": "standby_ready",
+  "steps": [
+    {
+      "step_id": 1,
+      "title": "Audit Data & Kesiapan Repositori Terdahulu",
+      "status": "completed",
+      "completed_at": "2026-10-21T12:36:00Z",
+      "artifacts": [
+        "derived/regional_data_readiness.json",
+        "derived/site_coordinate_crosswalk.csv"
+      ]
+    },
+    {
+      "step_id": 2,
+      "title": "Kalibrasi Model Transfer Hidrologi (Dataset Sabangau & DIB Kubu Raya)",
+      "status": "completed",
+      "completed_at": "2026-10-21T17:00:00Z",
+      "artifacts": [
+        "dataset_bundle/raw/sabangau_public_dataset.csv",
+        "derived/regional_inputs_2018.csv"
+      ]
+    },
+    {
+      "step_id": 3,
+      "title": "Kalkulasi Cepat & Pemeringkatan PFVI 2027 (4 Kawasan Gambut Kalimantan)",
+      "status": "completed",
+      "completed_at": "2026-10-21T17:01:00Z",
+      "artifacts": [
+        "derived/kalimantan_2027_pfvi_comparison.csv",
+        "derived/kalimantan_2027_pfvi_timeseries_all.csv",
+        "derived/kalimantan_2027_pfvi_ranking.json",
+        "derived/kalimantan_2027_pfvi_dynamics.png",
+        "notebooks/Kalimantan_PFVI_2027_Colab.ipynb"
+      ]
+    },
+    {
+      "step_id": 4,
+      "title": "Analisis Spasial & Durasi Periode Kritis Kemarau (Agustus - November 2027)",
+      "status": "completed",
+      "description": "Menghitung durasi hari berturut-turut PFVI >= 200 dan titik balik restorasi air di Sebangau & Pulang Pisau.",
+      "completed_at": "2026-10-21T18:03:43Z",
+      "artifacts": [
+        "derived/kalimantan_2027_drought_critical_period.json",
+        "derived/kalimantan_2027_drought_critical_period.csv",
+        "derived/kalimantan_2027_drought_monthly_breakdown.csv"
+      ]
+    },
+    {
+      "step_id": 5,
+      "title": "Penyusunan Rekomendasi Mitigasi Sekat Kanal & Alokasi Pemantauan Lapangan",
+      "status": "completed",
+      "description": "Menghubungkan peringkat kerentanan dengan prioritas rewetting kanal gambut.",
+      "completed_at": "2026-10-21T18:15:30Z",
+      "artifacts": [
+        "derived/kalimantan_2027_mitigation_and_monitoring_plan.json",
+        "derived/kalimantan_2027_mitigation_and_monitoring_plan.csv",
+        "derived/kalimantan_2027_canal_blocking_schedule.csv"
+      ]
+    },
+    {
+      "step_id": 6,
+      "title": "Watchdog & Pemantauan Dataset Masuk Baru",
+      "status": "completed",
+      "description": "Pemeriksaan berkala apabila ada file atau update data tambahan.",
+      "completed_at": "2026-10-24T05:10:44Z",
+      "artifacts": [
+        "derived/peatfr_dataset_watchdog_audit.json",
+        "derived/peatfr_dataset_watchdog_audit.csv"
+      ],
+      "fingerprint_sha256": "e3ac55ee4e7cde94d342f1e2f8e1570865ddc420b89df9bf22704476673757d8"
+    },
+    {
+      "step_id": 7,
+      "title": "Simulasi Multi-Skenario Iklim, Sensitivitas Hidrofisik van Genuchten & Optimasi Sekat Kanal 2027",
+      "status": "completed",
+      "description": "Eksplorasi komprehensif skenario iklim ENSO (El Ni\u00f1o Kuat vs Moderat vs Normal vs La Ni\u00f1a), uji sensitivitas n dan alpha van Genuchten, efektivitas rewetting sekat kanal, dan optimasi LCC biaya mitigasi.",
+      "completed_at": "2026-10-21T18:39:22Z",
+      "artifacts": [
+        "derived/kalimantan_2027_multi_scenario_climate_pfvi.csv",
+        "derived/kalimantan_2027_vangenuchten_sensitivity.csv",
+        "derived/kalimantan_2027_mitigation_effectiveness.csv",
+        "derived/kalimantan_2027_canal_blocking_cost_optimization.csv",
+        "derived/kalimantan_2027_multi_scenario_analysis.json",
+        "derived/kalimantan_2027_multi_scenario_sensitivity.png"
+      ]
+    },
+    {
+      "step_id": 8,
+      "title": "Integrasi Petrofisika ERT Time-Lapse, Kalibrasi Proksi WT/SM & Dynamic Early Warning System (EWS) 2027",
+      "status": "completed",
+      "description": "Simulasi petrofisika maju Waxman-Smits/Archie, deteksi MAT berbasis gradien resistivitas, evaluasi konfigurasi array Wenner/Dipole-Dipole, penetapan matriks ambang 4-tier EWS (Normal, Waspada, Siaga, Awas), serta rancangan webhook otomasi multi-agent cluster 3-node.",
+      "completed_at": "2026-10-21T18:53:23Z",
+      "artifacts": [
+        "derived/kalimantan_2027_ert_petrophysical_timeseries.csv",
+        "derived/kalimantan_2027_ews_alert_matrix.csv",
+        "derived/kalimantan_2027_ert_array_sensitivity.csv",
+        "derived/kalimantan_2027_ews_summary.json",
+        "derived/kalimantan_2027_ert_petrophysics_ews.png"
+      ]
+    },
+    {
+      "step_id": 9,
+      "title": "Standby Watchdog Telemetri Lapangan & Otomasi Webhook n8n (Siklus Pengawasan Rutin)",
+      "status": "standby_active",
+      "description": "Siklus pengawasan otomatis pasif 3-5 menit. Memantau kedatangan survei ERT/Piezometer baru di direktori incoming/ dan memicu kalkulasi ulang otomatis serta push notifikasi via webhook n8n.",
+      "last_run_utc": "2026-10-24T07:15:35Z",
+      "artifacts": [
+        "derived/peatfr_telemetry_watchdog_log.json",
+        "derived/peatfr_telemetry_dispatch_queue.json",
+        "derived/peatfr_dataset_watchdog_audit.json"
+      ],
+      "incoming_files_count": 0
+    },
+    {
+      "step_id": 10,
+      "title": "Automated Telemetry Ingestion Engine & n8n EWS Dispatcher",
+      "status": "completed",
+      "description": "Engine ingest data telemetri otomatis dari incoming/, kalkulasi PFVI/ERT seketika, evaluasi matriks EWS 4-tier, dan delegasi tugas darurat ke klaster multi-agent (Cika/Windah).",
+      "completed_at": "2026-10-24T06:37:16Z",
+      "last_run_utc": "2026-10-24T06:37:16Z",
+      "artifacts": [
+        "derived/peatfr_telemetry_last_ingestion.json",
+        "dataset_bundle/raw/telemetry/ingestion_ledger.json",
+        "workflows/workflow_peatfr_telemetry_ews.json"
+      ],
+      "latest_highest_tier": "AWAS"
+    },
+    {
+      "step_id": 11,
+      "title": "Eksekusi Dispatcher Klaster 3-Node & Failover Respon Cepat EWS",
+      "status": "completed",
+      "description": "Eksekusi otomatis tugas tanggap darurat EWS: pemicu failover lokal NAS jika Cika offline, pemuatan konfigurasi Surfer 3D ke Windah (Windows), serta konstruksi format siaran darurat Telegram MPA.",
+      "completed_at": "2026-10-24T07:20:22+00:00",
+      "artifacts": [
+        "derived/peatfr_cluster_dispatch_execution.json",
+        "derived/cika_resipy_pending_tasks.json",
+        "derived/peatfr_telegram_emergency_alert.json"
+      ]
+    }
+  ],
+  "last_updated": "2026-10-24T07:20:22+00:00"
+}

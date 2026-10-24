@@ -1,0 +1,73 @@
+{
+  "status": "SUCCESS",
+  "timestamp_utc": "2026-10-24T06:37:16Z",
+  "trigger_type": "MANUAL_OR_CRON",
+  "processed_count": 1,
+  "highest_ews_tier": {
+    "level": 4,
+    "status": "AWAS"
+  },
+  "active_triggers": [
+    "TR-02: WT <= -0.60 m (Kritis Gambut Kering)"
+  ],
+  "cluster_dispatches": [
+    {
+      "target_node": "Cika (Ubuntu 100.91.228.122)",
+      "action": "TRIGGER_URGENT_RESIPY_INVERSION",
+      "reason": "Ambang batas AWAS (TR-02) terlampaui."
+    },
+    {
+      "target_node": "Windah (Windows 100.96.249.7)",
+      "action": "TRIGGER_SURFER_3D_FENCE_HIGH_DPI",
+      "reason": "Ambang batas AWAS (TR-02): Pemetaan spasial kedalaman gambut kering untuk operasi water bombing."
+    },
+    {
+      "target_node": "Telegram / MPA Units",
+      "action": "DISPATCH_EMERGENCY_BROADCAST",
+      "reason": "Peringatan darurat bahaya kebakaran gambut kritis."
+    }
+  ],
+  "items": [
+    {
+      "status": "SUCCESS",
+      "dry_run": false,
+      "original_file": "telemetry_sample_critical_drought.csv",
+      "sha256": "6d99db9485b58d01af83e52359d42daed52025f8958ed647f34798c40985985f",
+      "size_bytes": 433,
+      "archived_file": "20261024_063716_telemetry_sample_critical_drought.csv",
+      "processed_at_utc": "2026-10-24T06:37:16Z",
+      "result": {
+        "file_type": "FIELD_TELEMETRY",
+        "record_count": 5,
+        "regions": [
+          "Kalteng_Sabangau"
+        ],
+        "sites": [
+          "BRG_SAB_01"
+        ],
+        "date_range": [
+          "2027-08-15",
+          "2027-08-19"
+        ],
+        "latest_date": "2027-08-19",
+        "metrics": {
+          "latest_wt_m": -0.71,
+          "min_wt_m": -0.71,
+          "latest_sm_pct": 36.2,
+          "latest_rf_mm": 0.0,
+          "latest_pfvi": 246.03,
+          "max_pfvi": 246.03,
+          "estimated_surface_resistivity_ohm_m": 80.19
+        },
+        "ews_evaluation": {
+          "status": "AWAS",
+          "tier_level": 4,
+          "triggers_active": [
+            "TR-02: WT <= -0.60 m (Kritis Gambut Kering)"
+          ],
+          "requires_action": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+region_id,region_name,month_num,month_name,days,mean_pfvi,max_pfvi,days_pfvi_ge_200,days_pfvi_ge_250,total_rain_mm,mean_wt_depth_m,min_wt_depth_m,mean_sm_pct
+Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),8,Agustus,31,137.69,182.24,0,0,209.0,-0.52,-0.703,55.17
+Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),9,September,30,41.88,110.78,0,0,396.1,-0.361,-0.509,60.8
+Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),10,Oktober,31,9.41,43.62,0,0,397.4,-0.291,-0.44,63.27
+Kalbar_Kubu_Raya,Kalimantan Barat (Kubu Raya / Rasau Jaya),11,November,30,3.92,17.41,0,0,418.7,-0.22,-0.287,65.77
+Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),8,Agustus,31,228.23,250.43,29,1,52.4,-0.547,-0.657,54.23
+Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),9,September,30,260.75,278.57,30,23,31.2,-0.662,-0.72,50.17
+Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),10,Oktober,31,289.7,300.0,31,31,21.6,-0.814,-0.969,44.81
+Kalsel_Pulang_Pisau,Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan),11,November,30,275.54,300.0,30,24,143.9,-0.75,-0.992,47.04
+Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),8,Agustus,31,233.16,266.25,28,9,64.6,-0.665,-0.799,50.07
+Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),9,September,30,266.9,282.86,30,25,49.0,-0.773,-0.859,46.26
+Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),10,Oktober,31,286.31,300.0,31,31,54.7,-0.849,-0.978,43.58
+Kalteng_Sabangau,Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya),11,November,30,271.94,300.0,28,22,152.6,-0.731,-0.963,47.73
+Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),8,Agustus,31,117.33,150.58,0,0,168.5,-0.418,-0.507,58.77
+Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),9,September,30,123.16,166.08,0,0,155.9,-0.451,-0.566,57.62
+Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),10,Oktober,31,139.33,189.93,0,0,116.9,-0.491,-0.605,56.21
+Kaltim_Kutai_Kartanegara,Kalimantan Timur (Delta Mahakam / Kutai Kartanegara),11,November,30,218.45,247.62,24,0,121.3,-0.595,-0.653,52.54

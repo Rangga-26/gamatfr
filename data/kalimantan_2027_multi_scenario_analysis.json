@@ -1,0 +1,51 @@
+{
+  "title": "Analisis Multi-Skenario Iklim, Sensitivitas Hidrofisik van Genuchten, dan Optimasi Mitigasi Sekat Kanal PeatFR Kalimantan 2027",
+  "generated_at_utc": "2026-10-21T18:39:22Z",
+  "evaluation_year": 2027,
+  "framework": "PeatFR / PFVI Hydrophysical Modeling & Climate Sensitivity Pipeline",
+  "provenance_statement": "Hasil simulasi ini merupakan eksplorasi pemodelan proksi hidrologi berbasis parameter acuan Sabangau dan reanalisis CMIP6 EC_Earth3P_HR. Skenario iklim dihitung deterministik tanpa mengubah struktur data asli. Rekomendasi konstruksi sekat kanal ditujukan sebagai acuan strategi teknis sebelum verifikasi LiDAR mikrotopografi.",
+  "climate_scenarios_evaluated": [
+    "Normal_Baseline",
+    "El_Nino_Moderat",
+    "El_Nino_Kuat",
+    "La_Nina"
+  ],
+  "peat_types_evaluated": [
+    "Fibrik_Alami",
+    "Hemik_Standar_PeatFR",
+    "Saprik_Terdegradasi",
+    "Saprik_Sangat_Padat"
+  ],
+  "mitigation_interventions_evaluated": [
+    "Tanpa_Sekat_Kontrol",
+    "Sekat_Cerucuk_Kayu",
+    "Sekat_Komposit_BRGM",
+    "Sekat_Beton_Permanen"
+  ],
+  "key_findings": {
+    "climate_sensitivity": {
+      "el_nino_kuat_impact": "El Niño Kuat memicu lonjakan hari risiko tinggi (PFVI >= 200) hingga 158 hari di Pulang Pisau dan 152 hari di Sabangau, dengan periode kebakaran ekstrem meluas dari Juli hingga awal Desember.",
+      "la_nina_mitigation": "Pada kondisi La Niña, curah hujan surplus mempertahankan muka air di atas ambang kritis, sehingga jumlah hari bahaya ekstrem berkurang hingga 0 hari di seluruh kawasan kecuali periode pendek di Agustus."
+    },
+    "van_genuchten_sensitivity": {
+      "sapric_degraded_vulnerability": "Gambut saprik padat terdegradasi (n=1.15, alpha=0.30) menunjukkan retensi air efektif yang anjlok tajam saat muka air turun melewati 40 cm. Fluktuasi WTF lebih sensitif terhadap pengeringan evaporatif.",
+      "pfvi_sharp_drop_explanation": "Penurunan tajam kurva PFVI saat hujan lebat (>50 mm/hari) merupakan konsekuensi fisik formulasi PeatFR di mana presipitasi dikurangkan secara linier (RF = Rf - 5.1 mm) dan saturasi kelembaban tanah seketika menetralisir defisit kelembaban (DI), bukan merupakan anomali atau galat dataset."
+    },
+    "mitigation_effectiveness": {
+      "brgm_compliance_impact": "Penerapan sekat komposit standar BRGM (menjaga WT >= -0.40 m) mampu memangkas durasi hari bahaya ekstrem sebesar 62.3% di Pulang Pisau dan 67.5% di Sabangau saat skenario kemarau ekstrem El Niño Kuat.",
+      "permanent_dam_impact": "Sekat beton permanen (WT >= -0.25 m) memberikan reduksi bahaya hingga 88.5%, namun membutuhkan investasi awal lebih tinggi dan manajemen pintu air limpasan yang disiplin saat musim hujan."
+    },
+    "economic_cost_optimization": {
+      "optimal_dam_type": "Sekat komposit HDPE / dinding turap (Tipe B) memiliki annualized cost (Rp 7.43 jt/unit/thn) yang paling seimbang dengan ketahanan 7 tahun tanpa risiko pembusukan cepat seperti kayu cerucuk (Tipe A) dan biaya awal jauh lebih terjangkau dibanding beton permanen (Tipe C).",
+      "annualized_investment_pulang_pisau": "Rp 23.77 Miliar / tahun untuk perlindungan penuh 520.000 ha KHG Kahayan-Sebangau."
+    }
+  },
+  "artifacts_generated": [
+    "derived/kalimantan_2027_multi_scenario_climate_pfvi.csv",
+    "derived/kalimantan_2027_vangenuchten_sensitivity.csv",
+    "derived/kalimantan_2027_mitigation_effectiveness.csv",
+    "derived/kalimantan_2027_canal_blocking_cost_optimization.csv",
+    "derived/kalimantan_2027_multi_scenario_analysis.json",
+    "derived/kalimantan_2027_multi_scenario_sensitivity.png"
+  ]
+}

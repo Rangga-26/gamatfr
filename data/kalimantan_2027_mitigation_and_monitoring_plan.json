@@ -1,0 +1,330 @@
+{
+  "plan_name": "Rencana Mitigasi Sekat Kanal & Alokasi Pemantauan Lapangan PeatFR Kalimantan 2027",
+  "generated_at_utc": "2026-10-21T18:15:30Z",
+  "evaluation_year": 2027,
+  "framework": "PeatFR Vulnerability-Guided Hydrological Rewetting and ERT Monitoring Strategy",
+  "provenance_notice": "Rencana ini disusun berbasis proksi hidrometeorologi PeatFR dan iklim reanalisis/CMIP6 EC_Earth3P_HR. Sifat data adalah simulasi proksi eksploratif; pelaksanaan teknis fisik di lapangan wajib dipadukan dengan survei DEM mikrotopografi (LiDAR) serta kalibrasi langsung sumur pantau in-situ.",
+  "zones": {
+    "Kalteng_Sabangau": {
+      "region_id": "Kalteng_Sabangau",
+      "region_name": "Kalimantan Tengah (Taman Nasional Sebangau / Palangka Raya)",
+      "priority_tier": "Tier 1 (Prioritas Kritis Ekstrem)",
+      "urgency": "Sangat Segera (Sebelum 15 Juli 2027)",
+      "rank_annual_pfvi": 1,
+      "mean_annual_pfvi": 148.03,
+      "mean_dry_pfvi": 264.5,
+      "peak_pfvi": 300.0,
+      "onset_high_risk_date": "2027-08-04",
+      "canal_closure_deadline": "2027-07-15",
+      "canal_block_density_per_km": 5,
+      "recommended_structure": "Sekat kanal bertingkat (cascade timber dams) dilapisi geotekstil dan pemadatan gambut di sayap sekat",
+      "target_canal_head": "-0.20 m dari bibir kanal",
+      "sensor_allocation": {
+        "piezometer_weight_pct": 40.0,
+        "recommended_piezometer_units": 24,
+        "recommended_ert_profiles": 8,
+        "target_khg": "KHG Kahayan - Sebangau (Taman Nasional Sebangau & Penyangga Palangka Raya)"
+      },
+      "ert_recommendation": {
+        "array": "Wenner-Schlumberger",
+        "recommended_profiles": 8,
+        "focus_area": "KHG Kahayan - Sebangau (Taman Nasional Sebangau & Penyangga Palangka Raya)"
+      },
+      "schedule": [
+        {
+          "task": "Audit & Perbaikan Struktur Sekat Kanal Eksisting",
+          "start_date": "2027-05-01",
+          "end_date": "2027-06-30",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT T0 Baseline (Kondisi Basah)",
+          "start_date": "2027-06-15",
+          "end_date": "2027-06-30",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Penutupan Total Sekat Kanal (Full Impoundment)",
+          "start_date": "2027-07-01",
+          "end_date": "2027-07-15",
+          "status": "Wajib Selesai"
+        },
+        {
+          "task": "Aktivasi Posko Darurat MPA & Patroli Rutin",
+          "start_date": "2027-08-01",
+          "end_date": "2027-12-10",
+          "status": "Siaga Penuh"
+        },
+        {
+          "task": "Survei ERT T1 Onset Penurunan Muka Air",
+          "start_date": "2027-08-15",
+          "end_date": "2027-08-25",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT T2 Puncak Desaturasi Gambut",
+          "start_date": "2027-10-20",
+          "end_date": "2027-10-31",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT T3 Evaluasi Pemulihan Pasca-Restorasi",
+          "start_date": "2027-12-15",
+          "end_date": "2027-12-25",
+          "status": "Direncanakan"
+        }
+      ]
+    },
+    "Kalsel_Pulang_Pisau": {
+      "region_id": "Kalsel_Pulang_Pisau",
+      "region_name": "Kalimantan Selatan / Tengah (Kawasan Pulang Pisau - Kahayan)",
+      "priority_tier": "Tier 1 (Prioritas Kritis Ekstrem)",
+      "urgency": "Sangat Segera (Sebelum 15 Juli 2027)",
+      "rank_annual_pfvi": 2,
+      "mean_annual_pfvi": 147.63,
+      "mean_dry_pfvi": 263.48,
+      "peak_pfvi": 300.0,
+      "onset_high_risk_date": "2027-08-03",
+      "canal_closure_deadline": "2027-07-15",
+      "canal_block_density_per_km": 6,
+      "recommended_structure": "Sekat komposit kayu gelam + karung tanah gambut (box dam) dengan pelimpas (spillway)",
+      "target_canal_head": "-0.20 m dari bibir kanal",
+      "sensor_allocation": {
+        "piezometer_weight_pct": 40.0,
+        "recommended_piezometer_units": 24,
+        "recommended_ert_profiles": 8,
+        "target_khg": "KHG Sungai Kahayan - Sungai Sebangau (Eks-PLG Blok A & C)"
+      },
+      "ert_recommendation": {
+        "array": "Wenner-Schlumberger",
+        "recommended_profiles": 8,
+        "focus_area": "KHG Sungai Kahayan - Sungai Sebangau (Eks-PLG Blok A & C)"
+      },
+      "schedule": [
+        {
+          "task": "Audit & Perbaikan Struktur Sekat Kanal Eksisting",
+          "start_date": "2027-05-01",
+          "end_date": "2027-06-30",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT T0 Baseline (Kondisi Basah)",
+          "start_date": "2027-06-15",
+          "end_date": "2027-06-30",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Penutupan Total Sekat Kanal (Full Impoundment)",
+          "start_date": "2027-07-01",
+          "end_date": "2027-07-15",
+          "status": "Wajib Selesai"
+        },
+        {
+          "task": "Aktivasi Posko Darurat MPA & Patroli Rutin",
+          "start_date": "2027-08-01",
+          "end_date": "2027-12-15",
+          "status": "Siaga Penuh"
+        },
+        {
+          "task": "Survei ERT T1 Onset Penurunan Muka Air",
+          "start_date": "2027-08-15",
+          "end_date": "2027-08-25",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT T2 Puncak Desaturasi Gambut",
+          "start_date": "2027-10-20",
+          "end_date": "2027-10-31",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT T3 Evaluasi Pemulihan Pasca-Restorasi",
+          "start_date": "2027-12-15",
+          "end_date": "2027-12-25",
+          "status": "Direncanakan"
+        }
+      ]
+    },
+    "Kaltim_Kutai_Kartanegara": {
+      "region_id": "Kaltim_Kutai_Kartanegara",
+      "region_name": "Kalimantan Timur (Delta Mahakam / Kutai Kartanegara)",
+      "priority_tier": "Tier 2 (Prioritas Siaga Tertunda / Delayed Peak)",
+      "urgency": "Tenggat Waktu Menengah (Sebelum 15 Oktober 2027)",
+      "rank_annual_pfvi": 3,
+      "mean_annual_pfvi": 71.12,
+      "mean_dry_pfvi": 149.22,
+      "peak_pfvi": 247.62,
+      "onset_high_risk_date": "2027-11-06",
+      "canal_closure_deadline": "2027-10-15",
+      "canal_block_density_per_km": 3,
+      "recommended_structure": "Sekat pintu geser (sluice gate) pada saluran drainase sekunder delta",
+      "target_canal_head": "-0.30 m dari bibir kanal",
+      "sensor_allocation": {
+        "piezometer_weight_pct": 15.0,
+        "recommended_piezometer_units": 8,
+        "recommended_ert_profiles": 3,
+        "target_khg": "Gambut Dataran Rendah Delta Mahakam"
+      },
+      "ert_recommendation": {
+        "array": "Wenner-Schlumberger",
+        "recommended_profiles": 3,
+        "focus_area": "Gambut Dataran Rendah Delta Mahakam"
+      },
+      "schedule": [
+        {
+          "task": "Inspeksi Pintu Air Drainase Delta",
+          "start_date": "2027-08-01",
+          "end_date": "2027-09-15",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Survei ERT Baseline & Uji Residu",
+          "start_date": "2027-09-20",
+          "end_date": "2027-09-30",
+          "status": "Direncanakan"
+        },
+        {
+          "task": "Penutupan Pintu Sekat Drainase",
+          "start_date": "2027-10-01",
+          "end_date": "2027-10-15",
+          "status": "Wajib Selesai"
+        },
+        {
+          "task": "Patroli Siaga Karhutla Delta Mahakam",
+          "start_date": "2027-11-01",
+          "end_date": "2027-12-05",
+          "status": "Siaga"
+        },
+        {
+          "task": "Pembukaan Bertahap Pintu Air Pasca-Restorasi",
+          "start_date": "2027-12-05",
+          "end_date": "2027-12-15",
+          "status": "Direncanakan"
+        }
+      ]
+    },
+    "Kalbar_Kubu_Raya": {
+      "region_id": "Kalbar_Kubu_Raya",
+      "region_name": "Kalimantan Barat (Kubu Raya / Rasau Jaya)",
+      "priority_tier": "Tier 3 (Prioritas Pemeliharaan Rutin / Terlindung Hidrologis)",
+      "urgency": "Pemeliharaan Standar Tahunan",
+      "rank_annual_pfvi": 4,
+      "mean_annual_pfvi": 46.52,
+      "mean_dry_pfvi": 48.64,
+      "peak_pfvi": 182.24,
+      "onset_high_risk_date": "Tidak Terjadi",
+      "canal_closure_deadline": "Fleksibel / Sesuai Pengaturan Pasang-Surut",
+      "canal_block_density_per_km": 2,
+      "recommended_structure": "Pintu klep otomatis (flap gates) penahan intrusi air asin dan retensi gambut pesisir",
+      "target_canal_head": "-0.35 m dari bibir kanal",
+      "sensor_allocation": {
+        "piezometer_weight_pct": 5.0,
+        "recommended_piezometer_units": 4,
+        "recommended_ert_profiles": 1,
+        "target_khg": "Gambut Pesisir Kubu Raya - Rasau Jaya"
+      },
+      "ert_recommendation": {
+        "array": "Wenner-Schlumberger",
+        "recommended_profiles": 1,
+        "focus_area": "Gambut Pesisir Kubu Raya - Rasau Jaya"
+      },
+      "schedule": [
+        {
+          "task": "Pemeliharaan Berkala Pintu Klep & Pengerukan Sedimen",
+          "start_date": "2027-05-01",
+          "end_date": "2027-06-30",
+          "status": "Rutin"
+        },
+        {
+          "task": "Kalibrasi Sensor Pasang Surut & Piezometer",
+          "start_date": "2027-07-01",
+          "end_date": "2027-07-20",
+          "status": "Rutin"
+        },
+        {
+          "task": "Inspeksi Lapangan Kondisi Basah Pesisir",
+          "start_date": "2027-08-10",
+          "end_date": "2027-08-25",
+          "status": "Rutin"
+        }
+      ]
+    }
+  },
+  "action_threshold_protocol": [
+    {
+      "level": 1,
+      "status": "Waspada (Normal / Hijau)",
+      "pfvi_range": "< 150",
+      "water_table_m": "> -0.40 m",
+      "actions": [
+        "Pemantauan telemetri piezometer mingguan.",
+        "Inspeksi struktural berkala sekat kanal dan pembersihan gulma saluran pengatur.",
+        "Pengambilan baseline geolistrik ERT (kondisi jenuh awal musim hujan)."
+      ]
+    },
+    {
+      "level": 2,
+      "status": "Siaga (Kuning)",
+      "pfvi_range": "150 - 199",
+      "water_table_m": "-0.60 m s.d. -0.40 m",
+      "actions": [
+        "Penutupan total (full crest) pintu sekat kanal untuk menahan drawdown air kubah gambut.",
+        "Peningkatan logging piezometer menjadi harian.",
+        "Patroli pencegahan Masyarakat Peduli Api (MPA) 2 hari sekali di area sekeliling kanal primer."
+      ]
+    },
+    {
+      "level": 3,
+      "status": "Bahaya Tinggi (Oranye)",
+      "pfvi_range": "200 - 249",
+      "water_table_m": "-0.80 m s.d. -0.60 m",
+      "actions": [
+        "Siaga 24 jam Posko Manggala Agni / BPBD tingkat kecamatan.",
+        "Pembatasan akses masuk masyarakat/perkebunan ke dalam kubah gambut dalam.",
+        "Survei ERT Time-Lapse T1 untuk memetakan penipisan zona jenuh air lateral di sekitar kanal.",
+        "Operasi pembasahan buatan (pumping) jika sekat kanal mengalami penurunan elevasi kritis."
+      ]
+    },
+    {
+      "level": 4,
+      "status": "Darurat Ekstrem (Merah)",
+      "pfvi_range": ">= 250",
+      "water_table_m": "< -0.80 m",
+      "actions": [
+        "Mobilisasi penuh satgas karhutla gabungan darat dan udara (water bombing standby).",
+        "Survei drone thermal untuk mendeteksi titik bakar bawah permukaan (peat smoldering).",
+        "Survei ERT Time-Lapse T2 di zona hotspot untuk verifikasi desaturasi lapisan gambut dalam (> 1 m).",
+        "Pertahanan zona sekat kanal dari risiko perusakan struktur atau kebocoran tebing gambut."
+      ]
+    }
+  ],
+  "ert_monitoring_specification": {
+    "method": "2D/3D Electrical Resistivity Tomography (ERT) Time-Lapse",
+    "recommended_array": "Wenner-Schlumberger (penetrasi vertikal optimal & sensitivitas lateral tinggi)",
+    "electrode_spacing_m": 1.0,
+    "profile_orientation": "Tegak lurus (transversal) melintasi kanal dan tanggul gambut hingga jarak 50-80 meter ke pedalaman kubah",
+    "survey_phases_2027": [
+      {
+        "phase": "T0_Baseline",
+        "timing": "15-30 Juni 2027",
+        "objective": "Pemetaan resistivitas latar saat kondisi gambut basah dan jenuh air."
+      },
+      {
+        "phase": "T1_Onset_Drought",
+        "timing": "15-25 Agustus 2027",
+        "objective": "Deteksi dini pembentukan kerucut penurunan muka air (drawdown cone) lateral kanal."
+      },
+      {
+        "phase": "T2_Peak_Desaturation",
+        "timing": "20-31 Oktober 2027",
+        "objective": "Pemetaan kedalaman lapisan kering gambut desaturasi ekstrem (resistivitas tinggi) dan deteksi rembesan tanggul."
+      },
+      {
+        "phase": "T3_Post_Restoration",
+        "timing": "15-25 Desember 2027",
+        "objective": "Evaluasi pemulihan pembasahan air (lateral rewetting bulb) pasca hujan lebat monsun barat."
+      }
+    ],
+    "rock_physics_calibration_requirement": "Sesuai kaidah repository-data-provenance: Nilai resistivitas semu wajib diinversi dengan pemodelan halus (ResIPy / pyGIMLi). Nilai resistivitas terbalik WAJIB dikalibrasi terhadap sampel laboratorium kadar air tanah volumetrik (theta) dan konduktivitas fluida pori sumur piezometer terdekat. Dilarang mengklaim kontur resistivitas sebagai angka pasti kedalaman WT tanpa holdout independen."
+  }
+}

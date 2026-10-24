@@ -1,0 +1,521 @@
+date,Rf_mm_era5,SM_pct_wrc_est,Temp_C_era5,WT_m,WT_pct_wrc_source,n_wt_stations,region,station
+2018-04-13,12.1,56.65797544872034,33.2,-0.40575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-14,12.4,56.01978286559378,31.8,-0.43674999999999997,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-15,14.0,55.75109050487104,33.5,-0.4505,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-16,3.1,55.88683844690442,30.8,-0.4435,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-17,6.1,55.66969743199067,33.7,-0.45475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-18,2.9,56.13466260358222,31.1,-0.431,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-19,15.4,56.749249798234366,32.9,-0.40149999999999997,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-20,3.1,56.5835233468328,30.5,-0.40925,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-21,9.7,56.25108529800037,32.1,-0.42525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-22,5.5,55.593784096687756,32.7,-0.45875,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-23,29.6,55.556075288667785,31.1,-0.46075,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-24,1.5,55.91130444839491,32.1,-0.44225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-25,2.7,55.365351071264854,31.1,-0.471,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-26,15.9,55.183237260138476,31.0,-0.481,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-27,5.9,56.87314471506786,30.1,-0.39549999999999996,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-28,5.6,56.33815313533289,33.2,-0.42100000000000004,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-29,0.9,55.765533660514976,34.1,-0.44975,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-30,15.4,55.59850925274564,31.6,-0.4585,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-01,8.8,55.58906151494549,32.2,-0.459,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-02,5.8,55.14726916465861,32.9,-0.483,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-03,10.1,54.99164023437936,33.6,-0.49175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-04,12.5,55.192252652083255,31.7,-0.4805,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-05,9.0,55.495146202205284,32.8,-0.464,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-06,1.3,55.133819513281466,33.0,-0.48375,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-07,1.0,54.756877579484254,33.7,-0.50525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-08,1.5,54.428621227171135,32.7,-0.52475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-09,5.2,54.192346582158855,34.0,-0.53925,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-10,3.5,53.95060921913761,34.0,-0.5545,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-11,7.8,53.81104504660266,33.4,-0.5635,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-12,19.9,53.807200159170556,30.8,-0.56375,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-13,3.4,53.63592194758067,32.3,-0.575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-14,18.5,53.738282227974366,30.2,-0.56825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-15,15.4,54.10836240960696,28.5,-0.5445,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-16,10.7,53.97017207685077,33.8,-0.55325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-17,14.4,53.67369237149484,31.0,-0.5725,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-18,16.1,53.88442381978481,29.7,-0.5587500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-19,15.8,54.273095173282925,33.1,-0.53425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-20,7.6,54.17227642136703,29.8,-0.5405,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-21,7.7,53.849588011720805,31.5,-0.5609999999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-22,52.9,53.609580234227174,33.7,-0.57675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-23,35.1,53.479059183611554,28.3,-0.5855,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-24,3.6,54.20843623610273,33.1,-0.53825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-25,8.7,54.44929449853346,31.1,-0.5235,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-26,37.7,54.90394804924005,29.6,-0.49675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-27,11.1,54.93016268184101,30.5,-0.49524999999999997,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-28,10.2,54.4991124435493,29.5,-0.5205,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-29,27.3,54.482474629279174,30.4,-0.5215,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-30,9.5,54.83442748754035,28.0,-0.50075,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-05-31,8.6,54.658785085137964,30.2,-0.511,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-01,9.6,55.129340929573715,32.5,-0.484,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-02,0.9,55.31946267096172,31.0,-0.4735,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-03,1.4,54.71409220844763,33.0,-0.50775,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-04,3.2,54.297467162834764,32.9,-0.53275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-05,1.9,54.01730385716339,33.2,-0.55025,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-06,0.1,53.753550040945775,33.6,-0.56725,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-07,0.0,53.523588212561826,33.7,-0.5825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-08,0.8,53.314083412789145,32.7,-0.59675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-09,3.1,53.13794356418258,32.7,-0.609,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-10,0.4,52.95485327841081,32.9,-0.622,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-11,0.0,52.84063567345013,33.5,-0.63025,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-12,3.7,52.68574256948996,33.0,-0.641,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-13,6.5,52.57526019600354,32.1,-0.64875,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-14,3.5,52.546962853120185,32.4,-0.65075,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-15,5.1,52.614311813760715,30.1,-0.646,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-16,1.5,52.51171322400201,32.6,-0.65325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-17,5.1,52.33056269249221,33.9,-0.66625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-18,6.5,52.490628141339776,31.2,-0.65475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-19,0.0,53.3431838969341,32.6,-0.59475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-20,0.4,52.885450997554415,30.1,-0.627,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-21,6.4,52.60364491021156,32.8,-0.64675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-22,11.5,52.399814183891415,30.0,-0.66125,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-23,22.5,52.23789306915586,29.9,-0.673,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-24,25.5,52.241308670908225,29.0,-0.67275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-25,1.5,52.55402902718883,28.6,-0.65025,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-26,0.5,52.36858643991942,30.6,-0.6635,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-27,12.6,52.459090916549044,28.9,-0.657,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-28,15.2,53.02481571286965,28.2,-0.617,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-29,15.9,52.786687339144045,27.3,-0.634,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-06-30,7.6,52.57171826106829,30.7,-0.649,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-01,5.2,52.396339191595,29.2,-0.6615,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-02,9.3,52.39286551235068,31.7,-0.66175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-03,0.2,52.203806667439466,31.6,-0.6755,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-04,0.2,52.05196282616505,30.7,-0.68675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-05,0.0,51.92896536516736,31.3,-0.696,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-06,0.0,51.78480843821409,31.8,-0.7070000000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-07,0.5,51.65568985486253,30.9,-0.7170000000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-08,0.8,51.52203922660199,32.2,-0.7275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-09,3.7,51.3840775485911,32.3,-0.7384999999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-10,21.5,51.88285158587147,29.1,-0.6995,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-11,1.4,52.17323659378788,32.3,-0.67775,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-12,10.9,52.045272074770224,31.7,-0.68725,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-13,0.4,51.85005421961607,31.7,-0.702,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-14,0.0,51.70389705505468,32.0,-0.71325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-15,0.0,51.58862166361992,32.1,-0.7222500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-16,0.0,51.427750276857196,32.3,-0.735,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-17,0.0,51.294267277863405,32.5,-0.74575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-18,0.0,51.165733271767685,33.3,-0.75625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-19,0.3,51.018013579735054,32.2,-0.7685,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-20,17.6,50.88146530487828,33.6,-0.78,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-21,3.9,50.8080962641241,32.1,-0.78625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-22,0.7,50.88146530487828,32.2,-0.78,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-23,0.4,50.99710320708857,33.7,-0.77025,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-24,0.7,50.84324033500016,33.1,-0.78325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-25,0.4,50.69479712476067,31.5,-0.796,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-26,0.0,50.58287734430478,33.3,-0.80575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-27,0.0,50.42732216065262,33.9,-0.8195,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-28,0.0,50.27711398733191,34.1,-0.833,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-29,1.9,50.15378850081714,32.9,-0.84425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-30,9.5,50.02403967945605,33.1,-0.85625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-07-31,10.0,49.94120643416519,30.7,-0.864,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-01,8.0,50.09950377260301,28.0,-0.84925,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-02,2.2,50.25231618176791,32.0,-0.83525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-03,0.0,50.12660606820765,32.2,-0.84675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-04,0.0,50.00794908256403,31.3,-0.85775,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-05,1.6,49.88287107134961,33.0,-0.8694999999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-06,0.0,49.74383749638405,32.6,-0.88275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-07,10.4,49.64543162819594,31.2,-0.89225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-08,5.8,49.53278860139284,30.3,-0.90325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-09,1.8,49.43156994043899,32.8,-0.91325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-10,2.9,49.346401721380175,32.9,-0.9217500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-11,5.8,49.24720365059221,33.3,-0.93175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-12,3.2,49.151505311858315,33.6,-0.9415,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-13,1.8,49.042308003036894,32.8,-0.95275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-14,0.2,48.93916198779411,33.3,-0.9635,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-15,0.1,48.83244361138798,33.7,-0.97475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-16,0.0,48.73861179898098,33.7,-0.98475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-17,0.3,48.636491069890084,33.3,-0.99575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-18,0.4,48.5581528208055,33.3,-1.00425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-19,0.3,48.45749951412241,33.0,-1.01525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-20,1.1,48.37369977003349,33.4,-1.0245,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-21,0.8,48.2839523459438,34.0,-1.0345,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-22,9.5,48.20834652368895,32.3,-1.043,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-23,1.6,50.531678060916676,32.0,-0.8102499999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-24,17.7,50.648716366569325,29.7,-0.8,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-25,11.0,52.241308670908225,30.0,-0.67275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-26,9.0,52.54343180179553,31.9,-0.651,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-27,8.0,52.30644739139566,32.9,-0.668,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-28,19.8,51.97863102897385,29.9,-0.69225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-29,2.7,51.73294318351741,28.9,-0.711,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-30,6.8,51.57272490708967,31.9,-0.7235,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-08-31,5.6,51.6845838294415,29.8,-0.71475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-01,10.0,51.83369931046222,31.1,-0.7032499999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-02,17.2,51.66531109280059,32.2,-0.71625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-03,9.8,51.55051552818587,32.1,-0.72525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-04,6.2,51.81085120920182,30.9,-0.705,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-05,3.8,51.85332869587891,31.5,-0.70175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-06,0.2,51.67494241061262,32.9,-0.7155,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-07,31.9,51.560027264172234,32.8,-0.7245,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-08,3.4,53.13794356418258,31.8,-0.609,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-09,2.8,53.18432683248104,30.5,-0.60575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-10,0.1,53.127274887668406,32.5,-0.60975,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-11,9.8,53.65101037362447,27.3,-0.5740000000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-12,0.2,53.83415025417017,32.5,-0.562,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-13,0.0,53.46057272198015,33.7,-0.58675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-14,0.0,53.1486253875596,33.4,-0.60825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-15,0.0,52.89236627400696,32.6,-0.6265,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-16,0.0,52.692916266311805,32.6,-0.6405,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-17,0.0,52.44860250467467,32.9,-0.6577500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-18,1.6,52.23789306915586,31.9,-0.673,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-19,17.3,52.08213161462434,31.3,-0.6845,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-20,10.9,52.190207416422986,30.1,-0.6765,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-21,13.8,52.57171826106829,27.1,-0.649,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-22,0.9,52.592990369311735,30.2,-0.6475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-23,0.0,52.396339191595,33.4,-0.6615,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-24,0.0,52.203806667439466,34.4,-0.6755,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-25,1.7,52.03190516291222,33.6,-0.68825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-26,13.3,52.00855973259927,32.2,-0.69,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-27,0.0,52.07541887828321,34.0,-0.685,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-28,0.0,51.86315912847918,33.9,-0.7010000000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-29,0.2,51.65889581549161,33.8,-0.71675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-09-30,0.0,51.499951814544,33.7,-0.72925,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-01,0.0,51.35921453949233,35.0,-0.7404999999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-02,1.0,51.183985611338734,33.9,-0.75475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-03,0.2,51.04796828857959,33.8,-0.766,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-04,0.0,50.90802216112418,34.5,-0.7777499999999999,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-05,0.0,50.741110028809054,34.1,-0.792,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-06,1.2,50.59429379036769,34.2,-0.8047500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-07,13.9,50.47512241031836,33.2,-0.81525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-08,8.7,50.48358360926881,30.0,-0.8145,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-09,2.2,50.709244859952975,29.8,-0.7947500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-10,3.8,50.744012346752875,33.3,-0.79175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-11,17.9,51.47477386793084,29.9,-0.73125,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-12,27.8,52.682157819196654,28.8,-0.64125,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-13,7.5,53.15575392297247,28.4,-0.60775,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-14,1.6,52.871636972999724,29.6,-0.628,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-15,6.8,52.757732694701986,32.8,-0.636,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-16,2.1,52.557564152020205,33.6,-0.65,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-17,0.1,52.58234816243848,32.3,-0.64825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-18,23.2,52.57171826106829,29.4,-0.649,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-19,11.1,52.46608984495007,33.9,-0.6565,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-20,5.2,52.43812604540901,33.5,-0.6585,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-21,2.8,52.33056269249221,34.1,-0.66625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-22,2.8,52.18002116384541,33.5,-0.67725,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-23,8.4,51.995246056107625,32.0,-0.6910000000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-24,19.0,52.048616841774816,33.2,-0.687,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-25,7.3,53.71162809319553,30.9,-0.57,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-26,7.6,53.32134938016642,33.6,-0.5962500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-27,19.2,53.20223284705632,32.4,-0.6045,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-28,11.0,53.30682353081242,32.5,-0.59725,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-29,12.7,53.43107614371454,31.7,-0.58875,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-30,13.9,54.28933555006814,30.8,-0.53325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-10-31,22.6,55.60323698592722,29.2,-0.45825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-01,25.2,55.485810392392224,29.5,-0.4645,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-02,17.7,55.2193552231156,29.3,-0.479,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-03,10.2,55.160739716823294,32.8,-0.48225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-04,5.2,54.82145422708904,32.5,-0.5015000000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-05,6.3,54.63760672480217,33.2,-0.51225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-06,16.2,54.25283739688954,33.2,-0.5355,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-07,12.6,54.4949499951747,31.9,-0.52075,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-08,29.1,54.29746716283476,32.3,-0.5327500000000001,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-09,15.3,54.41624088908921,30.1,-0.5255,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-10,5.9,54.24070541649974,32.6,-0.53625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-11,16.2,55.31946267096172,30.7,-0.4735,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-12,30.8,56.074535435980586,31.0,-0.434,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-13,2.4,56.26128329749841,29.1,-0.42475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-14,14.8,55.495146202205284,33.9,-0.46399999999999997,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-15,2.7,57.68456828274498,30.1,-0.35575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-16,5.5,56.695442682115235,34.0,-0.404,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-17,16.2,56.225642665782395,32.1,-0.4265,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-18,10.8,57.2401273130272,30.0,-0.377,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-19,23.2,57.503686099502836,30.8,-0.36425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-20,17.8,56.74385403175231,29.1,-0.40175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-21,5.3,56.09953775667032,31.0,-0.43275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-22,6.5,55.570196875130996,32.6,-0.46,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-23,10.8,55.242005611162845,33.1,-0.47775,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-24,10.8,55.46716888289909,31.5,-0.4655,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-25,5.2,55.27836979065346,31.9,-0.47575,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-26,1.1,55.02254329232761,31.2,-0.49,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-27,5.5,54.90831165294334,33.4,-0.4965,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-28,10.1,54.774051034479484,32.9,-0.50425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-29,12.9,54.70556041782429,31.2,-0.50825,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-11-30,12.3,54.671516982516536,31.0,-0.51025,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-01,12.8,54.663026973440644,29.6,-0.51075,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-02,14.4,54.424492482833244,30.8,-0.525,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-03,7.1,54.24070541649974,33.1,-0.53625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-04,26.0,54.00549686522644,31.8,-0.551,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-05,18.6,54.383312839717455,30.5,-0.5275,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-06,13.1,55.94075509475428,30.3,-0.44075,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-07,12.1,56.85863153759574,31.2,-0.39625,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-08,13.0,56.31245403980145,32.0,-0.42225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-09,9.3,55.49981788034236,30.9,-0.46375,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-10,31.2,55.65541294882371,32.6,-0.4555,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-11,19.7,55.9211102170577,29.3,-0.44175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-12,9.9,55.49047704045839,30.5,-0.46425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-13,18.7,55.43000570240238,31.9,-0.4675,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-14,11.2,55.27381591685629,28.4,-0.476,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-15,1.0,55.20579334513639,32.6,-0.47975,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-16,10.8,55.30574338784435,33.1,-0.47425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-17,2.5,55.90640572061629,31.5,-0.4425,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-18,0.0,56.49921096349158,33.2,-0.41325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-19,0.5,57.760308667895885,34.5,-0.35225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-20,4.4,58.37710418714337,30.6,-0.325,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-21,20.3,58.05402163225442,28.9,-0.33899999999999997,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-22,14.3,58.07665248047426,29.4,-0.338,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-23,6.6,57.84229878218831,30.6,-0.3485,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-24,6.9,57.760308667895885,32.4,-0.35225,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-25,0.0,57.561740736333164,32.6,-0.3615,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-26,0.3,57.285983671413106,33.6,-0.37475,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-27,3.8,56.98533541221473,33.7,-0.38975,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-12-28,2.9,56.322724536943156,33.4,-0.42175,"regional mean WT; WRC curve from BRG6; estimated, not measured SM",4,Batanghari,Batanghari_mean
+2018-04-13,3.5,46.19815513567767,30.2,-0.5802499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-14,37.3,47.3262296988263,29.6,-0.5335,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-15,19.3,48.86479715884355,29.1,-0.47575,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-16,18.0,52.212725129675505,28.7,-0.37274999999999997,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-17,15.6,49.463685240559876,31.7,-0.45499999999999996,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-18,12.6,48.39329622916485,32.3,-0.49275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-19,4.0,47.529133852119585,29.7,-0.5255,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-20,10.0,46.874516619304146,32.8,-0.55175,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-21,5.5,47.02135503720448,30.8,-0.54575,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-22,12.4,47.42729857229408,31.8,-0.5295,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-23,16.1,47.43364070378189,29.9,-0.52925,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-24,15.0,46.813804657061446,32.1,-0.55425,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-25,26.6,46.51429484838117,29.6,-0.56675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-26,7.5,46.39046577052193,30.1,-0.572,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-27,15.6,46.32605575172429,31.6,-0.57475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-28,4.4,46.699202658951165,31.8,-0.5589999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-29,0.0,46.39633657418957,33.6,-0.57175,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-04-30,8.3,46.042832990598995,33.7,-0.587,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-01,9.2,46.042832990598995,32.1,-0.587,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-02,8.2,46.41396439974732,31.2,-0.571,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-03,1.9,46.25614081806128,32.1,-0.57775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-04,0.2,45.906261001626525,33.1,-0.593,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-05,0.4,45.58183503551007,33.5,-0.6075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-06,6.9,45.22733115935107,33.2,-0.62375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-07,14.1,46.03711467534298,26.3,-0.58725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-08,2.6,46.59152709897103,32.3,-0.5635,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-09,9.0,46.14618122923072,34.0,-0.5825,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-10,5.6,45.84976338705806,30.6,-0.5955,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-11,16.4,45.64831766225625,30.4,-0.6045,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-12,10.6,45.83849233043687,30.5,-0.596,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-13,6.9,46.60941317909666,32.9,-0.56275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-14,29.8,46.18080814100409,31.2,-0.581,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-15,15.3,46.83805651588853,31.3,-0.55325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-16,14.8,47.56752205313033,29.0,-0.524,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-17,16.8,47.852439383743786,29.0,-0.513,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-18,24.3,47.541917730453676,31.8,-0.525,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-19,8.8,48.40011148593423,29.4,-0.4925,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-20,23.3,48.13016343845044,28.8,-0.5025,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-21,7.2,48.07016573697726,31.7,-0.50475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-22,12.7,47.41462328756277,33.3,-0.53,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-23,8.5,48.18372069059358,28.2,-0.5005,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-24,11.3,48.28471988694352,29.5,-0.49674999999999997,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-25,11.1,47.88520217914897,30.0,-0.51175,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-26,8.6,47.51636213154132,31.0,-0.526,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-27,19.1,47.40829012867348,29.9,-0.53025,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-28,20.5,47.08919632725597,28.0,-0.5429999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-29,19.1,46.80169513128526,33.1,-0.55475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-30,9.6,46.717232820320284,30.0,-0.55825,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-05-31,3.7,48.27796292419676,28.3,-0.497,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-01,1.3,47.4844858688283,31.3,-0.52725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-02,0.9,46.953854737484576,30.7,-0.5485,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-03,2.3,46.63927635167785,31.7,-0.5615,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-04,0.3,46.44339562602571,32.5,-0.56975,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-05,0.7,46.1692559139039,33.6,-0.5815,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-06,1.3,45.906261001626525,33.8,-0.593,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-07,0.2,45.64831766225625,33.4,-0.6045,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-08,3.0,45.455322671248275,33.0,-0.61325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-09,7.3,45.32456824432436,33.1,-0.61925,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-10,0.8,45.01499758116964,33.4,-0.634,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-11,2.1,44.76542060266638,32.9,-0.64725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-12,11.1,44.51177053238718,31.7,-0.661,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-13,0.8,44.2946783566918,32.4,-0.673,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-14,0.7,44.06382075322099,33.3,-0.686,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-15,14.5,43.83729719569547,32.1,-0.699,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-16,0.0,44.20981358178162,30.9,-0.6777500000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-17,0.3,44.07702007772754,33.8,-0.68525,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-18,2.0,43.807125839028174,33.0,-0.70075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-19,7.6,43.90654491104864,31.1,-0.695,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-20,0.3,44.31262093439672,31.3,-0.6719999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-21,0.8,44.06821892395793,31.4,-0.68575,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-22,13.8,43.807125839028174,30.6,-0.70075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-23,7.7,43.6829277390904,32.4,-0.708,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-24,30.5,44.2946783566918,28.5,-0.673,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-25,22.7,45.543204952481084,28.1,-0.60925,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-26,1.2,48.224029264654746,28.9,-0.499,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-27,17.9,47.345122264440406,31.5,-0.5327500000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-28,7.0,47.80670533699916,30.3,-0.51475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-29,2.0,48.5992736286055,28.9,-0.48525,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-06-30,13.9,47.69628107568089,29.8,-0.519,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-01,5.6,47.2071900575699,27.8,-0.53825,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-02,9.4,47.16359797559788,29.7,-0.54,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-03,0.5,48.11680743220204,30.4,-0.503,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-04,4.1,47.631747250508525,30.4,-0.5215,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-05,4.1,46.99063101745293,31.2,-0.5469999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-06,1.4,46.5974864792223,30.5,-0.56325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-07,0.0,46.33774370996932,31.4,-0.57425,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-08,0.0,45.98006504334694,32.5,-0.58975,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-09,0.4,45.69282296620572,32.6,-0.6024999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-10,0.8,45.38433937068147,32.6,-0.6164999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-11,0.0,45.11477064140731,31.7,-0.629,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-12,0.0,44.798089224045825,32.7,-0.6455,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-13,0.0,44.53918375421176,33.1,-0.6595,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-14,0.0,44.21871866062358,33.1,-0.67725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-15,0.0,43.98492658800025,33.1,-0.6905,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-16,0.0,43.789918875280605,32.4,-0.70175,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-17,0.0,43.53471624421708,33.2,-0.71675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-18,0.0,43.28892266143809,33.4,-0.7315,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-19,0.0,43.03187760034939,34.4,-0.74725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-20,0.3,42.77228963639455,34.5,-0.7635,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-21,4.1,42.518168861297205,33.8,-0.7797499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-22,0.2,42.303445256809354,33.4,-0.79375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-23,0.0,42.11116327970335,34.7,-0.8065,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-24,0.2,41.899824728379286,34.2,-0.82075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-25,4.6,41.65244979156362,33.6,-0.83775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-26,3.5,41.44184941651351,33.1,-0.8525,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-27,8.1,41.28715010161553,33.4,-0.8634999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-28,6.5,41.530638494721664,31.7,-0.84625,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-29,12.8,42.38734584396571,31.9,-0.7882499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-30,16.8,42.49884099991145,32.8,-0.781,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-07-31,37.0,42.311048521889646,27.5,-0.79325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-01,3.6,42.560799448153766,26.9,-0.777,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-02,0.5,42.669998214087215,33.0,-0.77,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-03,0.0,42.525908682783346,31.9,-0.77925,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-04,0.0,42.299645420127604,31.1,-0.794,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-05,0.0,42.01801489923432,31.8,-0.81275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-06,0.0,41.811935674926445,32.2,-0.82675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-07,3.2,41.56633787367082,32.8,-0.84375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-08,0.9,41.350196649430366,32.3,-0.859,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-09,4.2,41.19666051878234,32.4,-0.87,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-10,0.3,41.021108871313736,33.3,-0.88275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-11,0.0,40.878430403206615,34.0,-0.89325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-12,0.0,40.70075857029578,33.8,-0.9065,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-13,0.0,40.512552884999884,34.1,-0.92075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-14,0.0,40.40491854990969,34.1,-0.929,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-15,0.0,40.301454839619424,33.5,-0.9369999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-16,0.5,40.106651281291036,32.2,-0.95225,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-17,0.1,39.97119642058185,32.9,-0.963,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-18,0.0,39.85895020387246,34.0,-0.972,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-19,0.0,39.741590054548595,34.3,-0.9815,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-20,0.0,39.65278745675466,35.2,-0.98875,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-21,1.7,39.510945051408655,33.2,-1.0005,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-22,0.9,39.43401192154678,34.6,-1.00775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-23,0.0,39.297438695069616,34.6,-1.02075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-24,2.8,39.19873069918957,33.2,-1.03025,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-25,3.6,39.118877561498586,33.5,-1.038,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-26,1.9,39.02943424293515,32.3,-1.04675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-27,6.6,39.10861738526407,34.1,-1.039,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-28,13.7,39.930542512310176,33.7,-0.96625,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-29,5.4,40.32401184151032,30.6,-0.93525,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-30,0.1,41.51282833461265,33.5,-0.8474999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-08-31,14.5,41.717439434935656,34.0,-0.83325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-01,1.1,42.79601900743087,28.3,-0.762,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-02,0.3,42.701380237714446,30.8,-0.768,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-03,4.2,42.53752773161874,32.7,-0.7785,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-04,0.0,42.341509582644015,32.4,-0.79125,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-05,3.8,42.337697742055305,32.5,-0.7915,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-06,1.4,42.560799448153766,29.8,-0.777,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-07,0.0,42.360586869279054,34.2,-0.79,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-08,21.0,42.42183766721328,30.6,-0.7859999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-09,7.1,43.10476200419536,31.8,-0.74275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-10,17.7,43.759865606237284,31.7,-0.7035,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-11,10.8,45.37889462575553,27.1,-0.61675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-12,1.7,44.92493185388503,31.5,-0.6387499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-13,0.0,44.5758318652485,33.6,-0.6575,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-14,0.0,44.24101015279977,32.9,-0.6759999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-15,0.0,44.0111673695269,33.1,-0.6890000000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-16,0.0,43.75557838598142,33.2,-0.70375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-17,4.4,43.50949035081372,34.0,-0.71825,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-18,13.1,43.55577818233339,30.6,-0.7155,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-19,16.8,44.11228902876547,27.4,-0.68325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-20,6.9,44.2320886135518,31.6,-0.6765,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-21,7.3,44.15652068123916,30.5,-0.68075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-22,0.0,44.01116736952691,33.8,-0.689,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-23,1.4,43.768444619242246,33.7,-0.703,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-24,8.6,43.67015232097461,34.0,-0.70875,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-25,6.4,44.23654855863424,29.9,-0.67625,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-26,2.3,44.081423063101404,32.0,-0.6849999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-27,3.4,43.90654491104864,32.8,-0.6950000000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-28,1.4,43.71706179660066,33.5,-0.706,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-29,15.6,43.644641991635055,32.5,-0.71025,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-09-30,9.9,44.26334290261965,31.9,-0.67475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-01,45.0,45.335415953456874,31.5,-0.61875,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-02,10.4,45.2488786379823,31.1,-0.62275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-03,5.6,46.02568534429069,32.7,-0.58775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-04,8.2,45.8892867463532,33.8,-0.59375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-05,11.5,45.2488786379823,30.9,-0.62275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-06,22.9,44.95803580135152,32.4,-0.637,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-07,26.2,44.88720964642735,30.8,-0.64075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-08,13.9,44.854299176392956,31.0,-0.6425,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-09,36.3,44.812117182940085,29.3,-0.64475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-10,16.2,45.406140452053435,31.5,-0.6154999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-11,20.0,46.25614081806128,30.0,-0.57775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-12,29.0,47.02135503720448,30.0,-0.54575,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-13,42.6,50.63488480123688,25.8,-0.417,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-14,0.8,49.25138622574054,29.0,-0.46225,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-15,8.1,47.885202179148976,32.0,-0.5117499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-16,20.4,47.20095394732279,30.8,-0.5385,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-17,9.4,46.953854737484576,29.6,-0.5485,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-18,25.2,47.02750828504449,29.4,-0.5455,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-19,7.4,46.723248257453726,29.6,-0.558,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-20,34.7,46.26776805963251,31.1,-0.57725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-21,1.5,46.128901197025606,30.2,-0.58325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-22,2.5,45.799117959935145,32.3,-0.59775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-23,9.0,45.499191924389805,31.4,-0.61125,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-24,14.3,45.221949687359256,30.1,-0.624,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-25,13.8,45.11477064140731,31.6,-0.629,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-26,8.4,45.24348852625999,29.6,-0.623,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-27,13.6,45.30831309223785,31.5,-0.62,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-28,20.4,45.1094340773888,31.3,-0.62925,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-29,10.0,45.395235487446236,32.7,-0.616,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-30,16.8,45.615035208601824,30.6,-0.606,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-10-31,23.1,45.799117959935145,30.9,-0.59775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-01,19.0,46.209732259822104,29.8,-0.57975,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-02,14.6,45.84976338705806,30.1,-0.5955,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-03,13.7,45.2920775917605,30.4,-0.62075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-04,22.7,45.855402464686954,29.8,-0.59525,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-05,11.5,45.64831766225625,32.2,-0.6045,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-06,23.4,45.32999100360493,31.3,-0.619,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-07,11.9,45.67611618838131,30.1,-0.60325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-08,9.5,45.63721434357839,31.1,-0.605,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-09,12.7,45.60949614348892,31.8,-0.60625,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-10,44.2,46.425729151420306,30.2,-0.5705,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-11,17.1,46.80169513128526,29.7,-0.55475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-12,13.8,46.02568534429069,30.8,-0.58775,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-13,27.6,46.37873185699617,30.2,-0.5725,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-14,24.3,47.1139511050964,29.6,-0.542,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-15,1.0,46.898878463945735,32.5,-0.55075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-16,11.1,46.53801134580482,32.7,-0.56575,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-17,13.8,46.343591505914475,28.3,-0.5740000000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-18,17.4,46.4198454872842,32.6,-0.57075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-19,4.7,48.150222386430436,30.5,-0.50175,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-20,10.0,47.84589640520956,31.6,-0.51325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-21,10.9,46.874516619304146,31.4,-0.55175,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-22,9.6,46.27940537680427,29.7,-0.57675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-23,19.9,46.037114675342984,30.0,-0.5872499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-24,4.7,45.64831766225625,30.6,-0.6045,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-25,1.6,45.4991919243898,31.9,-0.6112500000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-26,17.3,45.2920775917605,31.1,-0.62075,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-27,4.3,45.010240482238245,31.4,-0.63425,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-28,8.1,45.861043911178584,32.4,-0.5950000000000001,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-29,29.0,46.84412632985665,31.4,-0.5529999999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-11-30,16.8,47.38930855211997,28.4,-0.531,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-01,23.9,46.68119667210732,29.8,-0.55975,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-02,21.0,46.27940537680427,30.2,-0.57675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-03,18.3,46.54394702023332,30.5,-0.5655,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-04,14.3,46.5974864792223,29.8,-0.56325,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-05,10.5,47.176038424079785,31.6,-0.5395,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-06,18.2,47.107758131421576,29.3,-0.54225,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-07,24.6,46.978361063948974,29.8,-0.5475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-08,16.7,46.402209945451276,28.2,-0.5715,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-09,15.8,46.425729151420306,32.6,-0.5705,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-10,9.8,46.11739351579373,30.9,-0.58375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-11,23.8,46.44339562602571,30.0,-0.56975,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-12,19.3,49.807474357080935,30.1,-0.4435,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-13,8.1,48.06351584173078,32.1,-0.505,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-14,54.8,47.57393076867829,30.9,-0.5237499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-15,18.5,48.50962861214575,28.7,-0.4885,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-16,9.2,47.599596257953706,31.1,-0.52275,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-17,17.3,47.41462328756277,29.1,-0.53,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-18,10.2,47.54831423601678,31.3,-0.52475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-19,22.6,46.58557036204664,30.3,-0.56375,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-20,19.0,46.38459753220445,30.3,-0.5722499999999999,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-21,10.1,46.36700818695799,27.7,-0.573,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-22,5.9,45.96299730560049,30.6,-0.5905,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-23,3.2,45.4937004243436,31.2,-0.6115,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-24,19.5,45.17897536852508,29.8,-0.626,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-25,12.2,45.20581819812128,30.8,-0.62475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-26,15.8,45.37889462575553,30.4,-0.61675,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-27,9.6,45.42251452013661,28.8,-0.61475,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
+2018-12-28,17.0,45.83849233043687,29.4,-0.596,"regional mean WT; WRC curve from BRG18; estimated, not measured SM",4,Kubu Raya,Kubu_Raya_mean
