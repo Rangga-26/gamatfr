@@ -671,6 +671,9 @@
                 </div>
             </div>
             <div class="header-links">
+                <a href="https://restfr.gama-geofisika.web.id/" target="_blank" class="btn-link" style="border-color: #38bdf8; color: #38bdf8; background: rgba(56, 189, 248, 0.1);">
+                    ⚡ Portal Inversi RESTFR
+                </a>
                 <a href="https://gama-geofisika.web.id/" target="_blank" class="btn-link btn-portal">
                     🌐 Portal HMGF UGM
                 </a>
@@ -867,9 +870,12 @@
                     <span><span class="legend-dot" style="background: #10b981;"></span>Aman / Rendah (PFVI &lt; 70)</span>
                     <span><span class="legend-dot" style="background: #38bdf8;"></span>Transek Topografi</span>
                 </div>
-                <div style="display: flex; gap: 10px; align-items: center;">
+                <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                    <button id="btn-gps-field" onclick="locateUserGPSGamatfr()" style="padding: 6px 14px; background: linear-gradient(135deg, #0284c7, #2563eb); border: none; border-radius: 8px; color: #fff; font-size: 0.8rem; font-weight: 700; cursor: pointer; box-shadow: 0 4px 12px rgba(37,99,235,0.35);">
+                        📍 Lacak Posisi GPS Lapangan
+                    </button>
                     <button id="btn-toggle-10km" onclick="toggle10kmGrid()" style="padding: 6px 14px; background: rgba(56, 189, 248, 0.2); border: 1px solid var(--accent-cyan); border-radius: 8px; color: #fff; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.2s;">
-                        📡 Kisi Spasial 10 km Se-Pulau Kalimantan (7.689 Titik)
+                        📡 Kisi Spasial 10 km (7.689 Titik)
                     </button>
                     <div style="font-size: 0.8rem; color: var(--accent-cyan); font-family: var(--font-mono);">
                         ArcGIS REST MapServer
@@ -908,7 +914,6 @@
             <button class="tab-btn active" onclick="switchTab('tab-dynamics')">Dinamika Harian 2027</button>
             <button class="tab-btn" onclick="switchTab('tab-multi')">Simulasi Multi-Skenario Iklim</button>
             <button class="tab-btn" onclick="switchTab('tab-ert')">Integrasi Geolistrik ERT & EWS</button>
-            <button class="tab-btn" onclick="switchTab('tab-resipy')">Inversi 2D ResIPy (ESP32 MQTT)</button>
         </div>
 
         <!-- Tab 1 -->
@@ -947,21 +952,17 @@
             </div>
         </div>
 
-        <!-- Tab 4: Live ResIPy ESP32 Inversion -->
-        <div id="tab-resipy" class="glass-panel tab-content">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 10px;">
-                <h3 style="font-size: 1.2rem;">Penampang 2D Resistivitas Bawah Permukaan Hasil Inversi ResIPy (R2 Engine)</h3>
-                <span style="padding: 4px 12px; background: rgba(56, 189, 248, 0.2); border: 1px solid var(--accent-cyan); border-radius: 20px; font-size: 0.8rem; color: #38bdf8; font-family: var(--font-mono);">
-                    ESP32 Telemetry via MQTT: geolistrik/esp32/data
-                </span>
+        <!-- Link to Dedicated RESTFR Portal -->
+        <div style="margin-top: 1.5rem; padding: 1.25rem 1.5rem; background: rgba(2, 132, 199, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+            <div>
+                <b style="color: #38bdf8; font-size: 1.05rem;">⚡ Membutuhkan Pemrosesan Inversi Geolistrik ResIPy?</b>
+                <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">
+                    Portal khusus untuk akuisisi mikrokontroler ESP32 via MQTT, pemodelan tomografi 2D/3D R2, dan grafik penampang bawah permukaan tersedia di <strong>RESTFR</strong>.
+                </p>
             </div>
-            <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.25rem;">
-                Grafik penampang tahanan jenis semu 2 dimensi hasil pemrosesan otomatis dari akuisisi kuadripol elektroda ESP32 di lapangan. 
-                Memvisualisasikan zonasi muka air tanah (WTD), ketebalan lapisan gambut kering, dan kontak batas dasar mineral (0 hingga -3,5 meter).
-            </p>
-            <div class="chart-img-wrapper">
-                <img src="/images/subsurface_resistivity_section.png" alt="Penampang 2D Resistivitas Bawah Permukaan ResIPy ESP32" style="border-radius: 12px; border: 1px solid var(--border-glow);">
-            </div>
+            <a href="https://restfr.gama-geofisika.web.id/" target="_blank" style="padding: 9px 20px; background: #0284c7; color: #fff; font-weight: 700; font-size: 0.88rem; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(2,132,199,0.4);">
+                Buka Portal RESTFR →
+            </a>
         </div>
 
         <!-- Interactive Simulator -->
@@ -1328,6 +1329,68 @@
                 btn.style.borderColor = 'var(--accent-cyan)';
                 btn.innerText = '📡 Sembunyikan Kisi 10 km';
             }
+        }
+
+
+        // ==========================================
+        // GPS GEOLOCATION INTEGRATION FOR GAMATFR
+        // ==========================================
+        let gamatfrGpsMarker = null;
+        let gamatfrGpsCircle = null;
+
+        function locateUserGPSGamatfr() {
+            if (!navigator.geolocation) {
+                alert("Browser tidak mendukung GPS Geolocation.");
+                return;
+            }
+
+            const btn = document.getElementById("btn-gps-field");
+            btn.innerText = "⏳ Mengunci GPS...";
+
+            navigator.geolocation.getCurrentPosition(
+                (pos) => {
+                    const lat = pos.coords.latitude;
+                    const lon = pos.coords.longitude;
+                    const acc = Math.round(pos.coords.accuracy);
+
+                    btn.innerText = `📍 GPS Aktif (±${acc}m)`;
+
+                    if (gamatfrGpsMarker) mapInstance.removeLayer(gamatfrGpsMarker);
+                    if (gamatfrGpsCircle) mapInstance.removeLayer(gamatfrGpsCircle);
+
+                    gamatfrGpsCircle = L.circle([lat, lon], {
+                        radius: acc,
+                        color: '#38bdf8',
+                        fillColor: '#38bdf8',
+                        fillOpacity: 0.18,
+                        weight: 1.5
+                    }).addTo(mapInstance);
+
+                    gamatfrGpsMarker = L.circleMarker([lat, lon], {
+                        radius: 9,
+                        fillColor: '#2563eb',
+                        color: '#ffffff',
+                        weight: 3,
+                        fillOpacity: 1
+                    }).addTo(mapInstance);
+
+                    gamatfrGpsMarker.bindPopup(`
+                        <div style="font-size: 13px;">
+                            <b style="color: #38bdf8;">📍 Posisi GPS Lapangan Anda</b><br>
+                            <b>Koordinat:</b> ${lat.toFixed(5)}, ${lon.toFixed(5)}<br>
+                            <b>Akurasi Perangkat:</b> ±${acc} meter<br>
+                            <span style="font-size: 11px; color: #94a3b8;">Terplot pada Peta Topografi ArcGIS</span>
+                        </div>
+                    `).openPopup();
+
+                    mapInstance.setView([lat, lon], 12);
+                },
+                (err) => {
+                    btn.innerText = "📍 Lacak Posisi GPS Lapangan";
+                    alert("Gagal membaca GPS: " + err.message + ". Pastikan izin lokasi perangkat diaktifkan.");
+                },
+                { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+            );
         }
 
         // Initialize map on window load
