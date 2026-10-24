@@ -1,0 +1,234 @@
+{
+  "analysis_title": "Rekomendasi Titik Pantau PeatFR & Lintasan Akuisisi Geolistrik ERT Berbasis Intensitas Geologi Kalimantan",
+  "dataset_reference": "kalimantan_geology_peat_gps_1gb.csv (Kapasitas >= 1.0 GB)",
+  "generated_time_wib": "2026-10-25 05:46:27 WIB",
+  "geological_formations_evaluated": [
+    "Formasi Gambut Kuarter",
+    "Formasi Dahor",
+    "Formasi Warukin",
+    "Formasi Tanjung",
+    "Endapan Alluvium dan Rawa"
+  ],
+  "top_peatfr_monitoring_points": [
+    {
+      "rank": 1,
+      "station_code": "PFR-KALTENG-SEBANGAU-01",
+      "location_name": "Puncak Kubah Gambut TN Sebangau - Kahayan",
+      "province": "Kalimantan Tengah",
+      "gps_latitude": -2.3164,
+      "gps_longitude": 113.9042,
+      "elevation_mdpl": 14.2,
+      "peat_thickness_m": 8.45,
+      "geological_formation": "Formasi Gambut Kuarter (Qp) di atas Alluvium Lempung Marin (Qa)",
+      "bedrock_lithology": "Lempung Marin Sangat Konduktif (Resistivitas: 9.5 Ohm.m)",
+      "water_table_dry_season_m": -0.88,
+      "peak_pfvi_index": 284.5,
+      "suitability_score": 98.4,
+      "justification": "Ketebalan gambut mencapai 8.45 meter dengan fluktuasi air tanah drastis saat kemarau; titik paling representatif untuk sistem deteksi dini kebakaran gambut pedalaman Kalimantan."
+    },
+    {
+      "rank": 2,
+      "station_code": "PFR-KALTENG-PULANGPISAU-02",
+      "location_name": "Kawasan Hidrologis Gambut Kahayan - Pulang Pisau",
+      "province": "Kalimantan Tengah",
+      "gps_latitude": -2.765,
+      "gps_longitude": 114.2615,
+      "elevation_mdpl": 8.5,
+      "peat_thickness_m": 6.8,
+      "geological_formation": "Formasi Gambut (Qp) kontak Batupasir Kuarsa Dahor (TQd)",
+      "bedrock_lithology": "Batupasir Kuarsa Formasi Dahor (Resistivitas: 72.0 Ohm.m)",
+      "water_table_dry_season_m": -0.95,
+      "peak_pfvi_index": 292.0,
+      "suitability_score": 97.8,
+      "justification": "Kawasan kanalisasi masif eks-PLG; penurunan muka air tanah sangat cepat, intensitas kebakaran historis berulang tertinggi."
+    },
+    {
+      "rank": 3,
+      "station_code": "PFR-KALBAR-KUBURAYA-01",
+      "location_name": "Kubah Gambut Pesisir Rasau Jaya - Kubu Raya",
+      "province": "Kalimantan Barat",
+      "gps_latitude": -0.2845,
+      "gps_longitude": 109.518,
+      "elevation_mdpl": 3.8,
+      "peat_thickness_m": 5.2,
+      "geological_formation": "Formasi Gambut (Qp) di atas Endapan Alluvium Sungai Kapuas (Qa)",
+      "bedrock_lithology": "Lanau dan Lempung Rawa Pasiran (Resistivitas: 14.0 Ohm.m)",
+      "water_table_dry_season_m": -0.65,
+      "peak_pfvi_index": 195.4,
+      "suitability_score": 94.2,
+      "justification": "Sangat ideal memantau pengaruh intrusi pasang surut air muara terhadap kestabilan kelembapan kubah gambut pesisir."
+    },
+    {
+      "rank": 4,
+      "station_code": "PFR-KALSEL-BARITOKUALA-01",
+      "location_name": "KHG Rawa Pasang Surut Sungai Negara - Barito Kuala",
+      "province": "Kalimantan Selatan",
+      "gps_latitude": -2.915,
+      "gps_longitude": 114.882,
+      "elevation_mdpl": 4.1,
+      "peat_thickness_m": 4.5,
+      "geological_formation": "Formasi Gambut Kuarter (Qp) perselingan Batulempung Warukin (Tmw)",
+      "bedrock_lithology": "Batulempung Karbonan dan Lignit (Resistivitas: 22.0 Ohm.m)",
+      "water_table_dry_season_m": -0.82,
+      "peak_pfvi_index": 268.0,
+      "suitability_score": 93.6,
+      "justification": "Titik kunci pemantauan lahan rawa sulfat masam yang rentan terbakar dan menghasilkan asap pekat akibat senyawa sulfur."
+    },
+    {
+      "rank": 5,
+      "station_code": "PFR-KALTIM-DELTAMAHAKAM-01",
+      "location_name": "Gambut Dataran Rendah Kutai Kartanegara - Delta Mahakam",
+      "province": "Kalimantan Timur",
+      "gps_latitude": -0.542,
+      "gps_longitude": 117.165,
+      "elevation_mdpl": 5.0,
+      "peat_thickness_m": 4.1,
+      "geological_formation": "Endapan Delta Kuarter (Qd) dan Formasi Warukin (Tmw)",
+      "bedrock_lithology": "Batupasir Kuarsa dan Batulanau (Resistivitas: 85.0 Ohm.m)",
+      "water_table_dry_season_m": -0.72,
+      "peak_pfvi_index": 215.0,
+      "suitability_score": 91.5,
+      "justification": "Titik strategis perlindungan koridor penyangga hidrologis delta sungai dan hutan mangrove terhadap rembetan api gambut."
+    }
+  ],
+  "recommended_geoelectric_survey_lines": [
+    {
+      "transect_id": "ERT-KAL-LINE-01",
+      "title": "Lintasan Geolistrik Kubah Sebangau (Palangka Raya - Kalteng)",
+      "province": "Kalimantan Tengah",
+      "gps_start": {
+        "latitude": -2.315,
+        "longitude": 113.902,
+        "elevation_mdpl": 14.5
+      },
+      "gps_end": {
+        "latitude": -2.315,
+        "longitude": 113.90515,
+        "elevation_mdpl": 13.9
+      },
+      "line_length_m": 315.0,
+      "recommended_array": "Wenner-Schlumberger",
+      "electrode_count": 64,
+      "electrode_spacing_m": 5.0,
+      "target_investigation_depth_m": 55.0,
+      "geological_target": "Ketebalan gambut, kontak lempung marin (Qa), dan geometri muka air tanah kemarau.",
+      "resistivity_contrast_ratio": "Tinggi (> 6:1) - Gambut atas (120-180 Ohm.m) di atas Lempung marin (8-14 Ohm.m).",
+      "justification": "Topografi datar dan kontras resistivitas sangat tajam menghasilkan citra 2D batas kubah paling jelas."
+    },
+    {
+      "transect_id": "ERT-KAL-LINE-02",
+      "title": "Lintasan Geolistrik Sekat Kanal Pulang Pisau (Kalteng)",
+      "province": "Kalimantan Tengah",
+      "gps_start": {
+        "latitude": -2.764,
+        "longitude": 114.26,
+        "elevation_mdpl": 8.8
+      },
+      "gps_end": {
+        "latitude": -2.76635,
+        "longitude": 114.26,
+        "elevation_mdpl": 8.2
+      },
+      "line_length_m": 235.0,
+      "recommended_array": "Dipole-Dipole",
+      "electrode_count": 48,
+      "electrode_spacing_m": 5.0,
+      "target_investigation_depth_m": 42.0,
+      "geological_target": "Efektivitas rembesan horizontal sekat kanal (canal blocking) dan perlapisan batupasir Dahor (TQd).",
+      "resistivity_contrast_ratio": "Sedang (3:1) - Sangat peka terhadap variasi saturasi air tanah di sekitar kanal.",
+      "justification": "Konfigurasi Dipole-Dipole memberikan resolusi lateral terbaik untuk memantau kubah air di hulu dan hilir sekat kanal."
+    },
+    {
+      "transect_id": "ERT-KAL-LINE-03",
+      "title": "Lintasan Geolistrik Kubu Raya (Rasau Jaya - Kalbar)",
+      "province": "Kalimantan Barat",
+      "gps_start": {
+        "latitude": -0.2835,
+        "longitude": 109.516,
+        "elevation_mdpl": 4.0
+      },
+      "gps_end": {
+        "latitude": -0.2835,
+        "longitude": 109.51882,
+        "elevation_mdpl": 3.6
+      },
+      "line_length_m": 282.0,
+      "recommended_array": "Wenner-Alpha",
+      "electrode_count": 48,
+      "electrode_spacing_m": 6.0,
+      "target_investigation_depth_m": 48.0,
+      "geological_target": "Deteksi perlapisan gambut terhadap sedimen lumpur alluvium Sungai Kapuas.",
+      "resistivity_contrast_ratio": "Sangat Tinggi (> 8:1) - Air tawar gambut di atas lapisan alluvium konduktif.",
+      "justification": "Wenner-Alpha memiliki Signal-to-Noise Ratio (SNR) tertinggi di area basah rawa berair."
+    },
+    {
+      "transect_id": "ERT-KAL-LINE-04",
+      "title": "Lintasan Geolistrik Cekungan Batanghari - Kendawangan (Kalbar)",
+      "province": "Kalimantan Barat",
+      "gps_start": {
+        "latitude": -2.412,
+        "longitude": 110.21,
+        "elevation_mdpl": 7.2
+      },
+      "gps_end": {
+        "latitude": -2.412,
+        "longitude": 110.21315,
+        "elevation_mdpl": 6.8
+      },
+      "line_length_m": 315.0,
+      "recommended_array": "Wenner-Schlumberger",
+      "electrode_count": 64,
+      "electrode_spacing_m": 5.0,
+      "target_investigation_depth_m": 52.0,
+      "geological_target": "Kontak batuan dasar sedimen Formasi Tanjung (Tet) dan ketebalan gambut padang.",
+      "resistivity_contrast_ratio": "Tinggi (5:1) - Batuan dasar keras di bawah gambut.",
+      "justification": "Mengidentifikasi undulasi batuan dasar keras yang mengontrol jalur aliran air bawah tanah alami."
+    },
+    {
+      "transect_id": "ERT-KAL-LINE-05",
+      "title": "Lintasan Geolistrik Barito Kuala (Kalsel)",
+      "province": "Kalimantan Selatan",
+      "gps_start": {
+        "latitude": -2.914,
+        "longitude": 114.88,
+        "elevation_mdpl": 4.3
+      },
+      "gps_end": {
+        "latitude": -2.914,
+        "longitude": 114.88235,
+        "elevation_mdpl": 4.0
+      },
+      "line_length_m": 235.0,
+      "recommended_array": "Dipole-Dipole",
+      "electrode_count": 48,
+      "electrode_spacing_m": 5.0,
+      "target_investigation_depth_m": 38.0,
+      "geological_target": "Lempung piritik / sulfat masam di bawah lapisan gambut tipis.",
+      "resistivity_contrast_ratio": "Ekstrem (> 10:1) - Pirit sangat konduktif (< 5 Ohm.m).",
+      "justification": "Mencegah terbukanya lapisan pirit masam akibat kanalisasi berlebih."
+    },
+    {
+      "transect_id": "ERT-KAL-LINE-06",
+      "title": "Lintasan Geolistrik Delta Mahakam (Kaltim)",
+      "province": "Kalimantan Timur",
+      "gps_start": {
+        "latitude": -0.541,
+        "longitude": 117.163,
+        "elevation_mdpl": 5.2
+      },
+      "gps_end": {
+        "latitude": -0.541,
+        "longitude": 117.16582,
+        "elevation_mdpl": 4.9
+      },
+      "line_length_m": 282.0,
+      "recommended_array": "Wenner-Schlumberger",
+      "electrode_count": 48,
+      "electrode_spacing_m": 6.0,
+      "target_investigation_depth_m": 45.0,
+      "geological_target": "Batas intrusi air payau dan lapisan lensa batubara Formasi Warukin (Tmw).",
+      "resistivity_contrast_ratio": "Tinggi (7:1) - Batubara resistif vs fluida payau.",
+      "justification": "Memberikan gambaran batas air tanah tawar dan air asin di kawasan delta."
+    }
+  ]
+}
