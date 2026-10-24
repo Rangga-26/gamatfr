@@ -869,7 +869,7 @@
                 </div>
                 <div style="display: flex; gap: 10px; align-items: center;">
                     <button id="btn-toggle-10km" onclick="toggle10kmGrid()" style="padding: 6px 14px; background: rgba(56, 189, 248, 0.2); border: 1px solid var(--accent-cyan); border-radius: 8px; color: #fff; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.2s;">
-                        📡 Kisi Spasial 10 km (477 Titik)
+                        📡 Kisi Spasial 10 km Se-Pulau Kalimantan (7.689 Titik)
                     </button>
                     <div style="font-size: 0.8rem; color: var(--accent-cyan); font-family: var(--font-mono);">
                         ArcGIS REST MapServer
@@ -1127,7 +1127,7 @@
 
             const overlays = {
                 "Titik Pantau & Transek": markersGroup,
-                "Kisi Spasial 10 km (477 Titik)": grid10kmGroup
+                "Kisi Spasial 10 km Se-Pulau Kalimantan (7.689 Titik)": grid10kmGroup
             };
 
             L.control.layers(baseMaps, overlays, { position: 'topright' }).addTo(mapInstance);
