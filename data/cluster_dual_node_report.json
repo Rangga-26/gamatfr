@@ -1,0 +1,40 @@
+{
+  "cluster_name": "Hermes Peatland Intelligence Cluster (Dual-Laptop Architecture)",
+  "timestamp": "2026-10-25 05:36:30",
+  "cluster_status": "ACTIVE_CALCULATION_COMPLETED",
+  "spatial_coverage": "Seluruh Pulau Kalimantan (7.689 Titik Kisi 10 km)",
+  "temporal_steps": "365 Hari x 48 Sub-langkah (17.520 langkah waktu per titik)",
+  "total_matrix_values_computed": 134711280,
+  "nodes": [
+    {
+      "node_role": "Windows High-Performance Worker (winhermes)",
+      "hardware": "Lenovo 80HR, Intel Core i5-5200U, 8GB RAM",
+      "regions": [
+        "Kalimantan Barat",
+        "Kalimantan Tengah"
+      ],
+      "points_processed": 4474,
+      "active_ram_percent": 77.2,
+      "ram_target_compliant": true,
+      "execution_time_sec": 0.58
+    },
+    {
+      "node_role": "Linux NAS Cluster Leader (localai)",
+      "hardware": "Proxmox Linux QEMU 4 vCPU, 5GB RAM",
+      "regions": [
+        "Kalimantan Timur",
+        "Kalimantan Selatan",
+        "Kalimantan Utara"
+      ],
+      "points_processed": 3215,
+      "active_ram_percent": 77.1,
+      "ram_target_compliant": true,
+      "execution_time_sec": 1.28
+    }
+  ],
+  "aggregate_hydrology_metrics": {
+    "total_points_evaluated": 7689,
+    "both_nodes_above_75_percent_ram": true,
+    "total_rewetting_water_million_m3": 2.93
+  }
+}
