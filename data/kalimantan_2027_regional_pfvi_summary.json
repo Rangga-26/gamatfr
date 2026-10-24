@@ -1,0 +1,72 @@
+{
+  "Kalimantan Tengah": {
+    "total_points": 2092,
+    "peat_points": 398,
+    "mineral_points": 1694,
+    "mean_pfvi": 99.89,
+    "peak_pfvi": 300.0,
+    "avg_peak_pfvi": 273.88,
+    "extreme_days_avg": 76.7,
+    "lowest_wtd": -1.04,
+    "peat_mean_pfvi": 116.56,
+    "peat_avg_peak_pfvi": 289.49,
+    "peat_extreme_days_avg": 86.9,
+    "peat_lowest_wtd": -0.71
+  },
+  "Kalimantan Selatan": {
+    "total_points": 532,
+    "peat_points": 108,
+    "mineral_points": 424,
+    "mean_pfvi": 100.56,
+    "peak_pfvi": 300.0,
+    "avg_peak_pfvi": 274.35,
+    "extreme_days_avg": 76.6,
+    "lowest_wtd": -1.12,
+    "peat_mean_pfvi": 119.45,
+    "peat_avg_peak_pfvi": 290.89,
+    "peat_extreme_days_avg": 88.1,
+    "peat_lowest_wtd": -0.31
+  },
+  "Kalimantan Barat": {
+    "total_points": 2382,
+    "peat_points": 368,
+    "mineral_points": 2014,
+    "mean_pfvi": 99.1,
+    "peak_pfvi": 300.0,
+    "avg_peak_pfvi": 273.49,
+    "extreme_days_avg": 76.1,
+    "lowest_wtd": -0.99,
+    "peat_mean_pfvi": 116.98,
+    "peat_avg_peak_pfvi": 290.24,
+    "peat_extreme_days_avg": 87.0,
+    "peat_lowest_wtd": -0.92
+  },
+  "Kalimantan Timur": {
+    "total_points": 1578,
+    "peat_points": 155,
+    "mineral_points": 1423,
+    "mean_pfvi": 98.1,
+    "peak_pfvi": 300.0,
+    "avg_peak_pfvi": 272.6,
+    "extreme_days_avg": 75.5,
+    "lowest_wtd": -0.98,
+    "peat_mean_pfvi": 117.31,
+    "peat_avg_peak_pfvi": 290.51,
+    "peat_extreme_days_avg": 86.6,
+    "peat_lowest_wtd": -0.79
+  },
+  "Kalimantan Utara": {
+    "total_points": 1105,
+    "peat_points": 93,
+    "mineral_points": 1012,
+    "mean_pfvi": 97.93,
+    "peak_pfvi": 300.0,
+    "avg_peak_pfvi": 272.34,
+    "extreme_days_avg": 75.7,
+    "lowest_wtd": -1.07,
+    "peat_mean_pfvi": 119.36,
+    "peat_avg_peak_pfvi": 291.08,
+    "peat_extreme_days_avg": 88.2,
+    "peat_lowest_wtd": -0.43
+  }
+}

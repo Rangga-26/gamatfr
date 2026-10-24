@@ -3,10 +3,10 @@
   "total_spatial_points": 7689,
   "total_days_projected": 365,
   "total_values_computed": 2806485,
-  "compute_time_seconds": 0.52,
+  "compute_time_seconds": 0.44,
   "island_mean_pfvi": 99.04,
   "island_peak_pfvi": 300.0,
-  "ram_start_mb": 3894.0,
-  "ram_final_mb": 3805.1,
+  "ram_start_mb": 3807.8,
+  "ram_final_mb": 3721.5,
   "ram_target_compliant": false
 }
