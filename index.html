@@ -865,10 +865,15 @@
                     <span><span class="legend-dot" style="background: #f43f5e;"></span>Bahaya Ekstrem (PFVI &gt; 140)</span>
                     <span><span class="legend-dot" style="background: #f59e0b;"></span>Bahaya Sedang (PFVI 70-140)</span>
                     <span><span class="legend-dot" style="background: #10b981;"></span>Aman / Rendah (PFVI &lt; 70)</span>
-                    <span><span class="legend-dot" style="background: #38bdf8;"></span>Transek Topografi Kubah</span>
+                    <span><span class="legend-dot" style="background: #38bdf8;"></span>Transek Topografi</span>
                 </div>
-                <div style="font-size: 0.8rem; color: var(--accent-cyan); font-family: var(--font-mono);">
-                    ArcGIS REST MapServer • Geodetik WGS84
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <button id="btn-toggle-10km" onclick="toggle10kmGrid()" style="padding: 6px 14px; background: rgba(56, 189, 248, 0.2); border: 1px solid var(--accent-cyan); border-radius: 8px; color: #fff; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.2s;">
+                        📡 Kisi Spasial 10 km (477 Titik)
+                    </button>
+                    <div style="font-size: 0.8rem; color: var(--accent-cyan); font-family: var(--font-mono);">
+                        ArcGIS REST MapServer
+                    </div>
                 </div>
             </div>
 
@@ -1096,6 +1101,8 @@
         let mapInstance = null;
         let transectPolyline = null;
         let markersGroup = L.layerGroup();
+        let grid10kmGroup = L.layerGroup();
+        let isGrid10kmVisible = true;
 
         function initArcGisMap() {
             if (mapInstance) return;
@@ -1119,11 +1126,21 @@
             };
 
             const overlays = {
-                "Titik Pantau & Transek": markersGroup
+                "Titik Pantau & Transek": markersGroup,
+                "Kisi Spasial 10 km (477 Titik)": grid10kmGroup
             };
 
             L.control.layers(baseMaps, overlays, { position: 'topright' }).addTo(mapInstance);
             markersGroup.addTo(mapInstance);
+            grid10kmGroup.addTo(mapInstance);
+
+            // Fetch dataset kisi 10 km dan peramalan 1 tahun ke depan
+            fetch('/data/kalimantan_10km_grid_telemetry.json')
+                .then(res => res.json())
+                .then(data => {
+                    render10kmGridData(data);
+                })
+                .catch(err => console.log("Info kisi 10km:", err));
 
             // Fetch dataset topografi dan titik olahan
             fetch('/data/kalimantan_topography_pfvi.json')
@@ -1233,6 +1250,65 @@
                     dashArray: '6, 6'
                 });
                 markersGroup.addLayer(transectPolyline);
+            }
+        }
+
+
+        function render10kmGridData(data) {
+            grid10kmGroup.clearLayers();
+            if (!data.points) return;
+
+            data.points.forEach(pt => {
+                const color = pt.status_color || '#10b981';
+
+                const gridMarker = L.circleMarker([pt.latitude, pt.longitude], {
+                    radius: 4,
+                    fillColor: color,
+                    color: '#ffffff',
+                    weight: 1,
+                    opacity: 0.85,
+                    fillOpacity: 0.8
+                });
+
+                gridMarker.bindPopup(`
+                    <div style="font-size: 12px; line-height: 1.5;">
+                        <b style="color: #38bdf8;">${pt.point_id}</b> — ${pt.region_name}<br>
+                        <span style="font-size: 11px; color: #94a3b8;">${pt.province} • Kisi 10 km</span>
+                        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 4px 0;">
+                        <b>Koordinat:</b> ${pt.latitude}, ${pt.longitude}<br>
+                        <b>Elevasi Topografi:</b> ${pt.elevation_mdpl} mdpl<br>
+                        <b>Ketebalan Gambut:</b> ${pt.peat_thickness_m} m<br>
+                        <b>Prediksi Rata-rata PFVI 1 Tahun:</b> ${pt.mean_pfvi_annual}<br>
+                        <b>Puncak Kemarau PFVI:</b> ${pt.peak_pfvi_dry_season}<br>
+                        <b>Hari Kritis Kebakaran:</b> ${pt.extreme_fire_days} hari<br>
+                        <b>Status Resiko Tahunan:</b> <span style="color: ${color}; font-weight: bold;">${pt.annual_risk_status}</span>
+                    </div>
+                `);
+
+                gridMarker.on('click', () => {
+                    document.getElementById('map-fokus-nama').innerText = `${pt.point_id} (${pt.province})`;
+                    document.getElementById('map-fokus-elevasi').innerText = `${pt.elevation_mdpl} mdpl (Tebal Gambut: ${pt.peat_thickness_m} m)`;
+                    document.getElementById('map-fokus-wtd').innerText = `Terendah Kemarau: ${pt.lowest_wtd_m} m (Rata-rata: ${pt.mean_wtd_m} m)`;
+                    document.getElementById('map-fokus-status').innerText = `${pt.annual_risk_status} (Puncak PFVI ${pt.peak_pfvi_dry_season} • ${pt.extreme_fire_days} hari kritis)`;
+                    document.getElementById('map-fokus-status').style.color = color;
+                });
+
+                grid10kmGroup.addLayer(gridMarker);
+            });
+        }
+
+        function toggle10kmGrid() {
+            const btn = document.getElementById('btn-toggle-10km');
+            if (mapInstance.hasLayer(grid10kmGroup)) {
+                mapInstance.removeLayer(grid10kmGroup);
+                btn.style.background = 'rgba(255, 255, 255, 0.08)';
+                btn.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+                btn.innerText = '📡 Tampilkan Kisi 10 km';
+            } else {
+                mapInstance.addLayer(grid10kmGroup);
+                btn.style.background = 'rgba(56, 189, 248, 0.2)';
+                btn.style.borderColor = 'var(--accent-cyan)';
+                btn.innerText = '📡 Sembunyikan Kisi 10 km';
             }
         }
 
